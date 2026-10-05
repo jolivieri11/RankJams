@@ -1,0 +1,2739 @@
+{
+  "href": "https://api.spotify.com/v1/me/player/recently-played?limit=50",
+  "limit": 50,
+  "items": [
+    {
+      "track": {
+        "id": "B9xO51DTjBlUH9PrNZ6IXE",
+        "name": "Streetlight Sonata",
+        "duration_ms": 214476,
+        "explicit": false,
+        "track_number": 1,
+        "uri": "spotify:track:B9xO51DTjBlUH9PrNZ6IXE",
+        "external_urls": {
+          "spotify": "https://open.spotify.com/track/B9xO51DTjBlUH9PrNZ6IXE"
+        },
+        "artists": [
+          {
+            "id": "OhbVrpoiVgRV5IfLBcbfno",
+            "name": "Neon Harbor",
+            "uri": "spotify:artist:OhbVrpoiVgRV5IfLBcbfno"
+          }
+        ],
+        "album": {
+          "id": "6g3Ot1OGMmjxWkI9X7H6aM",
+          "name": "Afterglow District",
+          "album_type": "album",
+          "release_date": "2025-03-14",
+          "images": [
+            {
+              "url": "https://i.scdn.co/image/uFbh7x41Ztpdp4K8ffUF0e",
+              "width": 640,
+              "height": 640
+            },
+            {
+              "url": "https://i.scdn.co/image/WIXiiQE8JkqH3MB9n7IWUS",
+              "width": 300,
+              "height": 300
+            },
+            {
+              "url": "https://i.scdn.co/image/mTtzQPxC5HChpoevbLJoLo",
+              "width": 64,
+              "height": 64
+            }
+          ],
+          "artists": [
+            {
+              "id": "OhbVrpoiVgRV5IfLBcbfno",
+              "name": "Neon Harbor"
+            }
+          ]
+        }
+      },
+      "played_at": "2026-10-05T13:54:31.204Z",
+      "context": {
+        "type": "playlist",
+        "uri": "spotify:playlist:QF3jCIEwvJWIyD7u3mSpKy"
+      }
+    },
+    {
+      "track": {
+        "id": "xEJHwBVJvwSDrtqohUmuhV",
+        "name": "Dial Tone Heart",
+        "duration_ms": 189548,
+        "explicit": true,
+        "track_number": 3,
+        "uri": "spotify:track:xEJHwBVJvwSDrtqohUmuhV",
+        "external_urls": {
+          "spotify": "https://open.spotify.com/track/xEJHwBVJvwSDrtqohUmuhV"
+        },
+        "artists": [
+          {
+            "id": "GMbJmTPSIAoCLrZ3aWZkSB",
+            "name": "Velvet Static",
+            "uri": "spotify:artist:GMbJmTPSIAoCLrZ3aWZkSB"
+          }
+        ],
+        "album": {
+          "id": "aeTOdoe5c3veGprQFnIiU7",
+          "name": "Soft Interference",
+          "album_type": "album",
+          "release_date": "2024-09-27",
+          "images": [
+            {
+              "url": "https://i.scdn.co/image/4KKEpYEZAmggQBwBAD3UdR",
+              "width": 640,
+              "height": 640
+            },
+            {
+              "url": "https://i.scdn.co/image/PPgdzUvZ3gpmmICiBlrDp3",
+              "width": 300,
+              "height": 300
+            },
+            {
+              "url": "https://i.scdn.co/image/7eCZ32JgdPI1af7W2pkAFE",
+              "width": 64,
+              "height": 64
+            }
+          ],
+          "artists": [
+            {
+              "id": "GMbJmTPSIAoCLrZ3aWZkSB",
+              "name": "Velvet Static"
+            }
+          ]
+        }
+      },
+      "played_at": "2026-10-05T13:50:55.650Z",
+      "context": {
+        "type": "playlist",
+        "uri": "spotify:playlist:QF3jCIEwvJWIyD7u3mSpKy"
+      }
+    },
+    {
+      "track": {
+        "id": "Cvl9dq83Eh0ezFeKORdjjZ",
+        "name": "Plum Moon",
+        "duration_ms": 222576,
+        "explicit": false,
+        "track_number": 2,
+        "uri": "spotify:track:Cvl9dq83Eh0ezFeKORdjjZ",
+        "external_urls": {
+          "spotify": "https://open.spotify.com/track/Cvl9dq83Eh0ezFeKORdjjZ"
+        },
+        "artists": [
+          {
+            "id": "7yfJs1ON43xKmTecQoXsf2",
+            "name": "Midnight Orchard",
+            "uri": "spotify:artist:7yfJs1ON43xKmTecQoXsf2"
+          }
+        ],
+        "album": {
+          "id": "u7W7eaDNKgeInGqi7w4e4p",
+          "name": "Night Fruit",
+          "album_type": "album",
+          "release_date": "2026-08-21",
+          "images": [
+            {
+              "url": "https://i.scdn.co/image/xskC1ITtNZPHaQ0Jt7Qg84",
+              "width": 640,
+              "height": 640
+            },
+            {
+              "url": "https://i.scdn.co/image/iqh4gVJjrsMnTvnRO2qGFq",
+              "width": 300,
+              "height": 300
+            },
+            {
+              "url": "https://i.scdn.co/image/562dfOB1rcavXiOqkVCJTB",
+              "width": 64,
+              "height": 64
+            }
+          ],
+          "artists": [
+            {
+              "id": "7yfJs1ON43xKmTecQoXsf2",
+              "name": "Midnight Orchard"
+            }
+          ]
+        }
+      },
+      "played_at": "2026-10-05T13:47:44.359Z",
+      "context": {
+        "type": "playlist",
+        "uri": "spotify:playlist:QF3jCIEwvJWIyD7u3mSpKy"
+      }
+    },
+    {
+      "track": {
+        "id": "PC6rlLBO0FfEwAvuQg2kvA",
+        "name": "Kernel Panic",
+        "duration_ms": 199710,
+        "explicit": false,
+        "track_number": 8,
+        "uri": "spotify:track:PC6rlLBO0FfEwAvuQg2kvA",
+        "external_urls": {
+          "spotify": "https://open.spotify.com/track/PC6rlLBO0FfEwAvuQg2kvA"
+        },
+        "artists": [
+          {
+            "id": "ipVJIqVLB5LzxoiGFfWd3h",
+            "name": "DJ Kettlecorn",
+            "uri": "spotify:artist:ipVJIqVLB5LzxoiGFfWd3h"
+          },
+          {
+            "id": "GMbJmTPSIAoCLrZ3aWZkSB",
+            "name": "Velvet Static",
+            "uri": "spotify:artist:GMbJmTPSIAoCLrZ3aWZkSB"
+          }
+        ],
+        "album": {
+          "id": "Z9SHDdJp62hDiZDQHJMu8W",
+          "name": "Pop Goes the Kernel",
+          "album_type": "album",
+          "release_date": "2026-01-30",
+          "images": [
+            {
+              "url": "https://i.scdn.co/image/5CN0U5GB16JC5kV3ECqWp1",
+              "width": 640,
+              "height": 640
+            },
+            {
+              "url": "https://i.scdn.co/image/OrXXHFOprCeTsprvu5Ifij",
+              "width": 300,
+              "height": 300
+            },
+            {
+              "url": "https://i.scdn.co/image/oySjTneAAvIDAdn1Ay5XL8",
+              "width": 64,
+              "height": 64
+            }
+          ],
+          "artists": [
+            {
+              "id": "ipVJIqVLB5LzxoiGFfWd3h",
+              "name": "DJ Kettlecorn"
+            }
+          ]
+        }
+      },
+      "played_at": "2026-10-05T13:44:00.541Z",
+      "context": {
+        "type": "playlist",
+        "uri": "spotify:playlist:QF3jCIEwvJWIyD7u3mSpKy"
+      }
+    },
+    {
+      "track": {
+        "id": "IDAdmHxNWFOCWdnrJi7sC4",
+        "name": "Glass Houses",
+        "duration_ms": 205715,
+        "explicit": false,
+        "track_number": 1,
+        "uri": "spotify:track:IDAdmHxNWFOCWdnrJi7sC4",
+        "external_urls": {
+          "spotify": "https://open.spotify.com/track/IDAdmHxNWFOCWdnrJi7sC4"
+        },
+        "artists": [
+          {
+            "id": "4IWrXPvhsBkDa9U4UqGWlG",
+            "name": "Kira Vance",
+            "uri": "spotify:artist:4IWrXPvhsBkDa9U4UqGWlG"
+          }
+        ],
+        "album": {
+          "id": "PeX9PcWb8pm1bNjpiEQhK8",
+          "name": "Glass Houses",
+          "album_type": "album",
+          "release_date": "2026-09-12",
+          "images": [
+            {
+              "url": "https://i.scdn.co/image/nDSqXxkMM9VThX0k9tgLb7",
+              "width": 640,
+              "height": 640
+            },
+            {
+              "url": "https://i.scdn.co/image/tKR69yz8TmeLS1OpgSXt2R",
+              "width": 300,
+              "height": 300
+            },
+            {
+              "url": "https://i.scdn.co/image/MZhYKYcwIBQxeGPva2A0Fg",
+              "width": 64,
+              "height": 64
+            }
+          ],
+          "artists": [
+            {
+              "id": "4IWrXPvhsBkDa9U4UqGWlG",
+              "name": "Kira Vance"
+            }
+          ]
+        }
+      },
+      "played_at": "2026-10-05T13:40:39.359Z",
+      "context": {
+        "type": "playlist",
+        "uri": "spotify:playlist:QF3jCIEwvJWIyD7u3mSpKy"
+      }
+    },
+    {
+      "track": {
+        "id": "FsQ8z0WJcDfuquhXz3G0aQ",
+        "name": "Hall of Mirrors",
+        "duration_ms": 274890,
+        "explicit": false,
+        "track_number": 2,
+        "uri": "spotify:track:FsQ8z0WJcDfuquhXz3G0aQ",
+        "external_urls": {
+          "spotify": "https://open.spotify.com/track/FsQ8z0WJcDfuquhXz3G0aQ"
+        },
+        "artists": [
+          {
+            "id": "jOkYRBMeyyMDHqJ38aRUhR",
+            "name": "Sable & The Echoes",
+            "uri": "spotify:artist:jOkYRBMeyyMDHqJ38aRUhR"
+          }
+        ],
+        "album": {
+          "id": "Sb24WKyEa8wtWy2591AIVV",
+          "name": "Echo Chamber Music",
+          "album_type": "album",
+          "release_date": "2024-02-16",
+          "images": [
+            {
+              "url": "https://i.scdn.co/image/IZM5oForBFbyvQRZzUk1D6",
+              "width": 640,
+              "height": 640
+            },
+            {
+              "url": "https://i.scdn.co/image/iNIb6zLKQbfPBi3Dldqyun",
+              "width": 300,
+              "height": 300
+            },
+            {
+              "url": "https://i.scdn.co/image/DuvW4yrW81Aq1fEbVId8wo",
+              "width": 64,
+              "height": 64
+            }
+          ],
+          "artists": [
+            {
+              "id": "jOkYRBMeyyMDHqJ38aRUhR",
+              "name": "Sable & The Echoes"
+            }
+          ]
+        }
+      },
+      "played_at": "2026-10-05T13:37:11.310Z",
+      "context": {
+        "type": "playlist",
+        "uri": "spotify:playlist:QF3jCIEwvJWIyD7u3mSpKy"
+      }
+    },
+    {
+      "track": {
+        "id": "FhbOMZpTktJaJAfo16hD8h",
+        "name": "Paper Planes at Noon",
+        "duration_ms": 219663,
+        "explicit": false,
+        "track_number": 4,
+        "uri": "spotify:track:FhbOMZpTktJaJAfo16hD8h",
+        "external_urls": {
+          "spotify": "https://open.spotify.com/track/FhbOMZpTktJaJAfo16hD8h"
+        },
+        "artists": [
+          {
+            "id": "4IWrXPvhsBkDa9U4UqGWlG",
+            "name": "Kira Vance",
+            "uri": "spotify:artist:4IWrXPvhsBkDa9U4UqGWlG"
+          }
+        ],
+        "album": {
+          "id": "PeX9PcWb8pm1bNjpiEQhK8",
+          "name": "Glass Houses",
+          "album_type": "album",
+          "release_date": "2026-09-12",
+          "images": [
+            {
+              "url": "https://i.scdn.co/image/nDSqXxkMM9VThX0k9tgLb7",
+              "width": 640,
+              "height": 640
+            },
+            {
+              "url": "https://i.scdn.co/image/tKR69yz8TmeLS1OpgSXt2R",
+              "width": 300,
+              "height": 300
+            },
+            {
+              "url": "https://i.scdn.co/image/MZhYKYcwIBQxeGPva2A0Fg",
+              "width": 64,
+              "height": 64
+            }
+          ],
+          "artists": [
+            {
+              "id": "4IWrXPvhsBkDa9U4UqGWlG",
+              "name": "Kira Vance"
+            }
+          ]
+        }
+      },
+      "played_at": "2026-10-05T13:32:35.920Z",
+      "context": {
+        "type": "playlist",
+        "uri": "spotify:playlist:QF3jCIEwvJWIyD7u3mSpKy"
+      }
+    },
+    {
+      "track": {
+        "id": "6sChDStSz8rGIFCfMc4BVu",
+        "name": "Hayloft Radio",
+        "duration_ms": 208618,
+        "explicit": false,
+        "track_number": 7,
+        "uri": "spotify:track:6sChDStSz8rGIFCfMc4BVu",
+        "external_urls": {
+          "spotify": "https://open.spotify.com/track/6sChDStSz8rGIFCfMc4BVu"
+        },
+        "artists": [
+          {
+            "id": "Zuzren68K4TunPFz46PDjq",
+            "name": "Marlow Fields",
+            "uri": "spotify:artist:Zuzren68K4TunPFz46PDjq"
+          },
+          {
+            "id": "o3gyrDO1xkxwnQrS7RPeMO",
+            "name": "Coastline Radio",
+            "uri": "spotify:artist:o3gyrDO1xkxwnQrS7RPeMO"
+          }
+        ],
+        "album": {
+          "id": "8yRV5lNKtzJ1atsnBYLMPu",
+          "name": "Wildflower Season",
+          "album_type": "album",
+          "release_date": "2025-07-18",
+          "images": [
+            {
+              "url": "https://i.scdn.co/image/DCCRnGEY59YVkQfsGQONvf",
+              "width": 640,
+              "height": 640
+            },
+            {
+              "url": "https://i.scdn.co/image/08WpRtoZmjbcpEN2XeDA4O",
+              "width": 300,
+              "height": 300
+            },
+            {
+              "url": "https://i.scdn.co/image/KmTSyFzpjPSa5W3X4gXBol",
+              "width": 64,
+              "height": 64
+            }
+          ],
+          "artists": [
+            {
+              "id": "Zuzren68K4TunPFz46PDjq",
+              "name": "Marlow Fields"
+            }
+          ]
+        }
+      },
+      "played_at": "2026-10-05T13:31:04.602Z",
+      "context": {
+        "type": "playlist",
+        "uri": "spotify:playlist:QF3jCIEwvJWIyD7u3mSpKy"
+      }
+    },
+    {
+      "track": {
+        "id": "B0ULru2p17fr4CpWDKNQyv",
+        "name": "Afterglow District",
+        "duration_ms": 238029,
+        "explicit": false,
+        "track_number": 2,
+        "uri": "spotify:track:B0ULru2p17fr4CpWDKNQyv",
+        "external_urls": {
+          "spotify": "https://open.spotify.com/track/B0ULru2p17fr4CpWDKNQyv"
+        },
+        "artists": [
+          {
+            "id": "OhbVrpoiVgRV5IfLBcbfno",
+            "name": "Neon Harbor",
+            "uri": "spotify:artist:OhbVrpoiVgRV5IfLBcbfno"
+          }
+        ],
+        "album": {
+          "id": "6g3Ot1OGMmjxWkI9X7H6aM",
+          "name": "Afterglow District",
+          "album_type": "album",
+          "release_date": "2025-03-14",
+          "images": [
+            {
+              "url": "https://i.scdn.co/image/uFbh7x41Ztpdp4K8ffUF0e",
+              "width": 640,
+              "height": 640
+            },
+            {
+              "url": "https://i.scdn.co/image/WIXiiQE8JkqH3MB9n7IWUS",
+              "width": 300,
+              "height": 300
+            },
+            {
+              "url": "https://i.scdn.co/image/mTtzQPxC5HChpoevbLJoLo",
+              "width": 64,
+              "height": 64
+            }
+          ],
+          "artists": [
+            {
+              "id": "OhbVrpoiVgRV5IfLBcbfno",
+              "name": "Neon Harbor"
+            }
+          ]
+        }
+      },
+      "played_at": "2026-10-05T13:27:34.475Z",
+      "context": {
+        "type": "playlist",
+        "uri": "spotify:playlist:QF3jCIEwvJWIyD7u3mSpKy"
+      }
+    },
+    {
+      "track": {
+        "id": "ACSMEscosTsS3DeRo7qYYO",
+        "name": "Golden Hour",
+        "duration_ms": 176603,
+        "explicit": false,
+        "track_number": 1,
+        "uri": "spotify:track:ACSMEscosTsS3DeRo7qYYO",
+        "external_urls": {
+          "spotify": "https://open.spotify.com/track/ACSMEscosTsS3DeRo7qYYO"
+        },
+        "artists": [
+          {
+            "id": "kIUpkDyr7OSJoRu1XXdo0c",
+            "name": "Lucid Avenue",
+            "uri": "spotify:artist:kIUpkDyr7OSJoRu1XXdo0c"
+          }
+        ],
+        "album": {
+          "id": "bQmzvr3e9XrwPGzR1Iv8bh",
+          "name": "Golden Hour",
+          "album_type": "single",
+          "release_date": "2026-05-09",
+          "images": [
+            {
+              "url": "https://i.scdn.co/image/4qlL9qcgMBwUYuBMGhy5Km",
+              "width": 640,
+              "height": 640
+            },
+            {
+              "url": "https://i.scdn.co/image/qcTBaH7ZIRU8VVQmxBe8Q6",
+              "width": 300,
+              "height": 300
+            },
+            {
+              "url": "https://i.scdn.co/image/vNuQ2hU5tGtQAuzSsJimAQ",
+              "width": 64,
+              "height": 64
+            }
+          ],
+          "artists": [
+            {
+              "id": "kIUpkDyr7OSJoRu1XXdo0c",
+              "name": "Lucid Avenue"
+            }
+          ]
+        }
+      },
+      "played_at": "2026-10-05T13:26:32.712Z",
+      "context": {
+        "type": "playlist",
+        "uri": "spotify:playlist:QF3jCIEwvJWIyD7u3mSpKy"
+      }
+    },
+    {
+      "track": {
+        "id": "IDAdmHxNWFOCWdnrJi7sC4",
+        "name": "Glass Houses",
+        "duration_ms": 205715,
+        "explicit": false,
+        "track_number": 1,
+        "uri": "spotify:track:IDAdmHxNWFOCWdnrJi7sC4",
+        "external_urls": {
+          "spotify": "https://open.spotify.com/track/IDAdmHxNWFOCWdnrJi7sC4"
+        },
+        "artists": [
+          {
+            "id": "4IWrXPvhsBkDa9U4UqGWlG",
+            "name": "Kira Vance",
+            "uri": "spotify:artist:4IWrXPvhsBkDa9U4UqGWlG"
+          }
+        ],
+        "album": {
+          "id": "PeX9PcWb8pm1bNjpiEQhK8",
+          "name": "Glass Houses",
+          "album_type": "album",
+          "release_date": "2026-09-12",
+          "images": [
+            {
+              "url": "https://i.scdn.co/image/nDSqXxkMM9VThX0k9tgLb7",
+              "width": 640,
+              "height": 640
+            },
+            {
+              "url": "https://i.scdn.co/image/tKR69yz8TmeLS1OpgSXt2R",
+              "width": 300,
+              "height": 300
+            },
+            {
+              "url": "https://i.scdn.co/image/MZhYKYcwIBQxeGPva2A0Fg",
+              "width": 64,
+              "height": 64
+            }
+          ],
+          "artists": [
+            {
+              "id": "4IWrXPvhsBkDa9U4UqGWlG",
+              "name": "Kira Vance"
+            }
+          ]
+        }
+      },
+      "played_at": "2026-10-05T13:23:33.830Z",
+      "context": {
+        "type": "playlist",
+        "uri": "spotify:playlist:QF3jCIEwvJWIyD7u3mSpKy"
+      }
+    },
+    {
+      "track": {
+        "id": "8tfphJWAMMYNoXHyC6Ct3L",
+        "name": "Bruised Peach",
+        "duration_ms": 195439,
+        "explicit": true,
+        "track_number": 6,
+        "uri": "spotify:track:8tfphJWAMMYNoXHyC6Ct3L",
+        "external_urls": {
+          "spotify": "https://open.spotify.com/track/8tfphJWAMMYNoXHyC6Ct3L"
+        },
+        "artists": [
+          {
+            "id": "7yfJs1ON43xKmTecQoXsf2",
+            "name": "Midnight Orchard",
+            "uri": "spotify:artist:7yfJs1ON43xKmTecQoXsf2"
+          }
+        ],
+        "album": {
+          "id": "u7W7eaDNKgeInGqi7w4e4p",
+          "name": "Night Fruit",
+          "album_type": "album",
+          "release_date": "2026-08-21",
+          "images": [
+            {
+              "url": "https://i.scdn.co/image/xskC1ITtNZPHaQ0Jt7Qg84",
+              "width": 640,
+              "height": 640
+            },
+            {
+              "url": "https://i.scdn.co/image/iqh4gVJjrsMnTvnRO2qGFq",
+              "width": 300,
+              "height": 300
+            },
+            {
+              "url": "https://i.scdn.co/image/562dfOB1rcavXiOqkVCJTB",
+              "width": 64,
+              "height": 64
+            }
+          ],
+          "artists": [
+            {
+              "id": "7yfJs1ON43xKmTecQoXsf2",
+              "name": "Midnight Orchard"
+            }
+          ]
+        }
+      },
+      "played_at": "2026-10-05T00:09:13.223Z",
+      "context": {
+        "type": "album",
+        "uri": "spotify:album:u7W7eaDNKgeInGqi7w4e4p"
+      }
+    },
+    {
+      "track": {
+        "id": "Cvl9dq83Eh0ezFeKORdjjZ",
+        "name": "Plum Moon",
+        "duration_ms": 222576,
+        "explicit": false,
+        "track_number": 2,
+        "uri": "spotify:track:Cvl9dq83Eh0ezFeKORdjjZ",
+        "external_urls": {
+          "spotify": "https://open.spotify.com/track/Cvl9dq83Eh0ezFeKORdjjZ"
+        },
+        "artists": [
+          {
+            "id": "7yfJs1ON43xKmTecQoXsf2",
+            "name": "Midnight Orchard",
+            "uri": "spotify:artist:7yfJs1ON43xKmTecQoXsf2"
+          }
+        ],
+        "album": {
+          "id": "u7W7eaDNKgeInGqi7w4e4p",
+          "name": "Night Fruit",
+          "album_type": "album",
+          "release_date": "2026-08-21",
+          "images": [
+            {
+              "url": "https://i.scdn.co/image/xskC1ITtNZPHaQ0Jt7Qg84",
+              "width": 640,
+              "height": 640
+            },
+            {
+              "url": "https://i.scdn.co/image/iqh4gVJjrsMnTvnRO2qGFq",
+              "width": 300,
+              "height": 300
+            },
+            {
+              "url": "https://i.scdn.co/image/562dfOB1rcavXiOqkVCJTB",
+              "width": 64,
+              "height": 64
+            }
+          ],
+          "artists": [
+            {
+              "id": "7yfJs1ON43xKmTecQoXsf2",
+              "name": "Midnight Orchard"
+            }
+          ]
+        }
+      },
+      "played_at": "2026-10-05T00:05:55.613Z",
+      "context": {
+        "type": "album",
+        "uri": "spotify:album:u7W7eaDNKgeInGqi7w4e4p"
+      }
+    },
+    {
+      "track": {
+        "id": "B9xO51DTjBlUH9PrNZ6IXE",
+        "name": "Streetlight Sonata",
+        "duration_ms": 214476,
+        "explicit": false,
+        "track_number": 1,
+        "uri": "spotify:track:B9xO51DTjBlUH9PrNZ6IXE",
+        "external_urls": {
+          "spotify": "https://open.spotify.com/track/B9xO51DTjBlUH9PrNZ6IXE"
+        },
+        "artists": [
+          {
+            "id": "OhbVrpoiVgRV5IfLBcbfno",
+            "name": "Neon Harbor",
+            "uri": "spotify:artist:OhbVrpoiVgRV5IfLBcbfno"
+          }
+        ],
+        "album": {
+          "id": "6g3Ot1OGMmjxWkI9X7H6aM",
+          "name": "Afterglow District",
+          "album_type": "album",
+          "release_date": "2025-03-14",
+          "images": [
+            {
+              "url": "https://i.scdn.co/image/uFbh7x41Ztpdp4K8ffUF0e",
+              "width": 640,
+              "height": 640
+            },
+            {
+              "url": "https://i.scdn.co/image/WIXiiQE8JkqH3MB9n7IWUS",
+              "width": 300,
+              "height": 300
+            },
+            {
+              "url": "https://i.scdn.co/image/mTtzQPxC5HChpoevbLJoLo",
+              "width": 64,
+              "height": 64
+            }
+          ],
+          "artists": [
+            {
+              "id": "OhbVrpoiVgRV5IfLBcbfno",
+              "name": "Neon Harbor"
+            }
+          ]
+        }
+      },
+      "played_at": "2026-10-04T16:20:24.736Z",
+      "context": {
+        "type": "playlist",
+        "uri": "spotify:playlist:4i3erXY2Av7YGr0asUt1LL"
+      }
+    },
+    {
+      "track": {
+        "id": "8WSlmnVErULWHMsg1msoxl",
+        "name": "Porch Light",
+        "duration_ms": 233309,
+        "explicit": false,
+        "track_number": 1,
+        "uri": "spotify:track:8WSlmnVErULWHMsg1msoxl",
+        "external_urls": {
+          "spotify": "https://open.spotify.com/track/8WSlmnVErULWHMsg1msoxl"
+        },
+        "artists": [
+          {
+            "id": "vrjn9Wvgfygw2wMqZcUDIh",
+            "name": "Juniper Lane",
+            "uri": "spotify:artist:vrjn9Wvgfygw2wMqZcUDIh"
+          }
+        ],
+        "album": {
+          "id": "n3z5dkyayq7YYDsBS9UYJQ",
+          "name": "Porch Light Hymns",
+          "album_type": "album",
+          "release_date": "2023-06-02",
+          "images": [
+            {
+              "url": "https://i.scdn.co/image/TFjmsn9dLVIdVuddLEG62H",
+              "width": 640,
+              "height": 640
+            },
+            {
+              "url": "https://i.scdn.co/image/kd9Gf2leMeR3pzh84KpLMc",
+              "width": 300,
+              "height": 300
+            },
+            {
+              "url": "https://i.scdn.co/image/NfAQLKHu7qnQTupqziQPtD",
+              "width": 64,
+              "height": 64
+            }
+          ],
+          "artists": [
+            {
+              "id": "vrjn9Wvgfygw2wMqZcUDIh",
+              "name": "Juniper Lane"
+            }
+          ]
+        }
+      },
+      "played_at": "2026-10-04T16:19:25.565Z",
+      "context": {
+        "type": "playlist",
+        "uri": "spotify:playlist:4i3erXY2Av7YGr0asUt1LL"
+      }
+    },
+    {
+      "track": {
+        "id": "qbfo9R13KL8bWR0rKcWWlE",
+        "name": "Butter & Bass",
+        "duration_ms": 183531,
+        "explicit": true,
+        "track_number": 3,
+        "uri": "spotify:track:qbfo9R13KL8bWR0rKcWWlE",
+        "external_urls": {
+          "spotify": "https://open.spotify.com/track/qbfo9R13KL8bWR0rKcWWlE"
+        },
+        "artists": [
+          {
+            "id": "ipVJIqVLB5LzxoiGFfWd3h",
+            "name": "DJ Kettlecorn",
+            "uri": "spotify:artist:ipVJIqVLB5LzxoiGFfWd3h"
+          }
+        ],
+        "album": {
+          "id": "Z9SHDdJp62hDiZDQHJMu8W",
+          "name": "Pop Goes the Kernel",
+          "album_type": "album",
+          "release_date": "2026-01-30",
+          "images": [
+            {
+              "url": "https://i.scdn.co/image/5CN0U5GB16JC5kV3ECqWp1",
+              "width": 640,
+              "height": 640
+            },
+            {
+              "url": "https://i.scdn.co/image/OrXXHFOprCeTsprvu5Ifij",
+              "width": 300,
+              "height": 300
+            },
+            {
+              "url": "https://i.scdn.co/image/oySjTneAAvIDAdn1Ay5XL8",
+              "width": 64,
+              "height": 64
+            }
+          ],
+          "artists": [
+            {
+              "id": "ipVJIqVLB5LzxoiGFfWd3h",
+              "name": "DJ Kettlecorn"
+            }
+          ]
+        }
+      },
+      "played_at": "2026-10-04T16:15:31.309Z",
+      "context": {
+        "type": "playlist",
+        "uri": "spotify:playlist:4i3erXY2Av7YGr0asUt1LL"
+      }
+    },
+    {
+      "track": {
+        "id": "1jF7TsGTrA1EEpDJjym6MG",
+        "name": "Overcast",
+        "duration_ms": 231764,
+        "explicit": false,
+        "track_number": 9,
+        "uri": "spotify:track:1jF7TsGTrA1EEpDJjym6MG",
+        "external_urls": {
+          "spotify": "https://open.spotify.com/track/1jF7TsGTrA1EEpDJjym6MG"
+        },
+        "artists": [
+          {
+            "id": "4IWrXPvhsBkDa9U4UqGWlG",
+            "name": "Kira Vance",
+            "uri": "spotify:artist:4IWrXPvhsBkDa9U4UqGWlG"
+          },
+          {
+            "id": "vrjn9Wvgfygw2wMqZcUDIh",
+            "name": "Juniper Lane",
+            "uri": "spotify:artist:vrjn9Wvgfygw2wMqZcUDIh"
+          }
+        ],
+        "album": {
+          "id": "PeX9PcWb8pm1bNjpiEQhK8",
+          "name": "Glass Houses",
+          "album_type": "album",
+          "release_date": "2026-09-12",
+          "images": [
+            {
+              "url": "https://i.scdn.co/image/nDSqXxkMM9VThX0k9tgLb7",
+              "width": 640,
+              "height": 640
+            },
+            {
+              "url": "https://i.scdn.co/image/tKR69yz8TmeLS1OpgSXt2R",
+              "width": 300,
+              "height": 300
+            },
+            {
+              "url": "https://i.scdn.co/image/MZhYKYcwIBQxeGPva2A0Fg",
+              "width": 64,
+              "height": 64
+            }
+          ],
+          "artists": [
+            {
+              "id": "4IWrXPvhsBkDa9U4UqGWlG",
+              "name": "Kira Vance"
+            }
+          ]
+        }
+      },
+      "played_at": "2026-10-04T16:12:25.573Z",
+      "context": {
+        "type": "playlist",
+        "uri": "spotify:playlist:4i3erXY2Av7YGr0asUt1LL"
+      }
+    },
+    {
+      "track": {
+        "id": "tKNdN9Vg8WnOnqQfkplJek",
+        "name": "Low Tide FM",
+        "duration_ms": 268002,
+        "explicit": false,
+        "track_number": 1,
+        "uri": "spotify:track:tKNdN9Vg8WnOnqQfkplJek",
+        "external_urls": {
+          "spotify": "https://open.spotify.com/track/tKNdN9Vg8WnOnqQfkplJek"
+        },
+        "artists": [
+          {
+            "id": "o3gyrDO1xkxwnQrS7RPeMO",
+            "name": "Coastline Radio",
+            "uri": "spotify:artist:o3gyrDO1xkxwnQrS7RPeMO"
+          }
+        ],
+        "album": {
+          "id": "Jahe84S5jIc1xLJjBictx5",
+          "name": "Low Tide FM",
+          "album_type": "album",
+          "release_date": "2022-11-11",
+          "images": [
+            {
+              "url": "https://i.scdn.co/image/7Y3c5wnRpQgwXJ43ANVj77",
+              "width": 640,
+              "height": 640
+            },
+            {
+              "url": "https://i.scdn.co/image/p3kZZl4AblV7vY7AZQ3VZp",
+              "width": 300,
+              "height": 300
+            },
+            {
+              "url": "https://i.scdn.co/image/rkYSgy3c2Eom06Dwt0Y3oo",
+              "width": 64,
+              "height": 64
+            }
+          ],
+          "artists": [
+            {
+              "id": "o3gyrDO1xkxwnQrS7RPeMO",
+              "name": "Coastline Radio"
+            }
+          ]
+        }
+      },
+      "played_at": "2026-10-04T16:08:33.471Z",
+      "context": {
+        "type": "playlist",
+        "uri": "spotify:playlist:4i3erXY2Av7YGr0asUt1LL"
+      }
+    },
+    {
+      "track": {
+        "id": "UAFJWpSEPTFCYbfsozSptQ",
+        "name": "Soft Interference",
+        "duration_ms": 256595,
+        "explicit": false,
+        "track_number": 1,
+        "uri": "spotify:track:UAFJWpSEPTFCYbfsozSptQ",
+        "external_urls": {
+          "spotify": "https://open.spotify.com/track/UAFJWpSEPTFCYbfsozSptQ"
+        },
+        "artists": [
+          {
+            "id": "GMbJmTPSIAoCLrZ3aWZkSB",
+            "name": "Velvet Static",
+            "uri": "spotify:artist:GMbJmTPSIAoCLrZ3aWZkSB"
+          }
+        ],
+        "album": {
+          "id": "aeTOdoe5c3veGprQFnIiU7",
+          "name": "Soft Interference",
+          "album_type": "album",
+          "release_date": "2024-09-27",
+          "images": [
+            {
+              "url": "https://i.scdn.co/image/4KKEpYEZAmggQBwBAD3UdR",
+              "width": 640,
+              "height": 640
+            },
+            {
+              "url": "https://i.scdn.co/image/PPgdzUvZ3gpmmICiBlrDp3",
+              "width": 300,
+              "height": 300
+            },
+            {
+              "url": "https://i.scdn.co/image/7eCZ32JgdPI1af7W2pkAFE",
+              "width": 64,
+              "height": 64
+            }
+          ],
+          "artists": [
+            {
+              "id": "GMbJmTPSIAoCLrZ3aWZkSB",
+              "name": "Velvet Static"
+            }
+          ]
+        }
+      },
+      "played_at": "2026-10-04T16:04:04.129Z",
+      "context": {
+        "type": "playlist",
+        "uri": "spotify:playlist:4i3erXY2Av7YGr0asUt1LL"
+      }
+    },
+    {
+      "track": {
+        "id": "Cvl9dq83Eh0ezFeKORdjjZ",
+        "name": "Plum Moon",
+        "duration_ms": 222576,
+        "explicit": false,
+        "track_number": 2,
+        "uri": "spotify:track:Cvl9dq83Eh0ezFeKORdjjZ",
+        "external_urls": {
+          "spotify": "https://open.spotify.com/track/Cvl9dq83Eh0ezFeKORdjjZ"
+        },
+        "artists": [
+          {
+            "id": "7yfJs1ON43xKmTecQoXsf2",
+            "name": "Midnight Orchard",
+            "uri": "spotify:artist:7yfJs1ON43xKmTecQoXsf2"
+          }
+        ],
+        "album": {
+          "id": "u7W7eaDNKgeInGqi7w4e4p",
+          "name": "Night Fruit",
+          "album_type": "album",
+          "release_date": "2026-08-21",
+          "images": [
+            {
+              "url": "https://i.scdn.co/image/xskC1ITtNZPHaQ0Jt7Qg84",
+              "width": 640,
+              "height": 640
+            },
+            {
+              "url": "https://i.scdn.co/image/iqh4gVJjrsMnTvnRO2qGFq",
+              "width": 300,
+              "height": 300
+            },
+            {
+              "url": "https://i.scdn.co/image/562dfOB1rcavXiOqkVCJTB",
+              "width": 64,
+              "height": 64
+            }
+          ],
+          "artists": [
+            {
+              "id": "7yfJs1ON43xKmTecQoXsf2",
+              "name": "Midnight Orchard"
+            }
+          ]
+        }
+      },
+      "played_at": "2026-10-04T15:59:46.648Z",
+      "context": {
+        "type": "playlist",
+        "uri": "spotify:playlist:4i3erXY2Av7YGr0asUt1LL"
+      }
+    },
+    {
+      "track": {
+        "id": "IDAdmHxNWFOCWdnrJi7sC4",
+        "name": "Glass Houses",
+        "duration_ms": 205715,
+        "explicit": false,
+        "track_number": 1,
+        "uri": "spotify:track:IDAdmHxNWFOCWdnrJi7sC4",
+        "external_urls": {
+          "spotify": "https://open.spotify.com/track/IDAdmHxNWFOCWdnrJi7sC4"
+        },
+        "artists": [
+          {
+            "id": "4IWrXPvhsBkDa9U4UqGWlG",
+            "name": "Kira Vance",
+            "uri": "spotify:artist:4IWrXPvhsBkDa9U4UqGWlG"
+          }
+        ],
+        "album": {
+          "id": "PeX9PcWb8pm1bNjpiEQhK8",
+          "name": "Glass Houses",
+          "album_type": "album",
+          "release_date": "2026-09-12",
+          "images": [
+            {
+              "url": "https://i.scdn.co/image/nDSqXxkMM9VThX0k9tgLb7",
+              "width": 640,
+              "height": 640
+            },
+            {
+              "url": "https://i.scdn.co/image/tKR69yz8TmeLS1OpgSXt2R",
+              "width": 300,
+              "height": 300
+            },
+            {
+              "url": "https://i.scdn.co/image/MZhYKYcwIBQxeGPva2A0Fg",
+              "width": 64,
+              "height": 64
+            }
+          ],
+          "artists": [
+            {
+              "id": "4IWrXPvhsBkDa9U4UqGWlG",
+              "name": "Kira Vance"
+            }
+          ]
+        }
+      },
+      "played_at": "2026-10-04T15:56:02.786Z",
+      "context": {
+        "type": "playlist",
+        "uri": "spotify:playlist:4i3erXY2Av7YGr0asUt1LL"
+      }
+    },
+    {
+      "track": {
+        "id": "QZ7mBhIoPj6r0jedkYtMV0",
+        "name": "Wildflower Season",
+        "duration_ms": 241582,
+        "explicit": false,
+        "track_number": 1,
+        "uri": "spotify:track:QZ7mBhIoPj6r0jedkYtMV0",
+        "external_urls": {
+          "spotify": "https://open.spotify.com/track/QZ7mBhIoPj6r0jedkYtMV0"
+        },
+        "artists": [
+          {
+            "id": "Zuzren68K4TunPFz46PDjq",
+            "name": "Marlow Fields",
+            "uri": "spotify:artist:Zuzren68K4TunPFz46PDjq"
+          }
+        ],
+        "album": {
+          "id": "8yRV5lNKtzJ1atsnBYLMPu",
+          "name": "Wildflower Season",
+          "album_type": "album",
+          "release_date": "2025-07-18",
+          "images": [
+            {
+              "url": "https://i.scdn.co/image/DCCRnGEY59YVkQfsGQONvf",
+              "width": 640,
+              "height": 640
+            },
+            {
+              "url": "https://i.scdn.co/image/08WpRtoZmjbcpEN2XeDA4O",
+              "width": 300,
+              "height": 300
+            },
+            {
+              "url": "https://i.scdn.co/image/KmTSyFzpjPSa5W3X4gXBol",
+              "width": 64,
+              "height": 64
+            }
+          ],
+          "artists": [
+            {
+              "id": "Zuzren68K4TunPFz46PDjq",
+              "name": "Marlow Fields"
+            }
+          ]
+        }
+      },
+      "played_at": "2026-10-04T15:52:35.205Z",
+      "context": {
+        "type": "playlist",
+        "uri": "spotify:playlist:4i3erXY2Av7YGr0asUt1LL"
+      }
+    },
+    {
+      "track": {
+        "id": "B9xO51DTjBlUH9PrNZ6IXE",
+        "name": "Streetlight Sonata",
+        "duration_ms": 214476,
+        "explicit": false,
+        "track_number": 1,
+        "uri": "spotify:track:B9xO51DTjBlUH9PrNZ6IXE",
+        "external_urls": {
+          "spotify": "https://open.spotify.com/track/B9xO51DTjBlUH9PrNZ6IXE"
+        },
+        "artists": [
+          {
+            "id": "OhbVrpoiVgRV5IfLBcbfno",
+            "name": "Neon Harbor",
+            "uri": "spotify:artist:OhbVrpoiVgRV5IfLBcbfno"
+          }
+        ],
+        "album": {
+          "id": "6g3Ot1OGMmjxWkI9X7H6aM",
+          "name": "Afterglow District",
+          "album_type": "album",
+          "release_date": "2025-03-14",
+          "images": [
+            {
+              "url": "https://i.scdn.co/image/uFbh7x41Ztpdp4K8ffUF0e",
+              "width": 640,
+              "height": 640
+            },
+            {
+              "url": "https://i.scdn.co/image/WIXiiQE8JkqH3MB9n7IWUS",
+              "width": 300,
+              "height": 300
+            },
+            {
+              "url": "https://i.scdn.co/image/mTtzQPxC5HChpoevbLJoLo",
+              "width": 64,
+              "height": 64
+            }
+          ],
+          "artists": [
+            {
+              "id": "OhbVrpoiVgRV5IfLBcbfno",
+              "name": "Neon Harbor"
+            }
+          ]
+        }
+      },
+      "played_at": "2026-10-04T01:29:32.929Z",
+      "context": {
+        "type": "artist",
+        "uri": "spotify:artist:OhbVrpoiVgRV5IfLBcbfno"
+      }
+    },
+    {
+      "track": {
+        "id": "F2ulFnwZqvr4MS4rJaH8mf",
+        "name": "Tram Lines",
+        "duration_ms": 201247,
+        "explicit": false,
+        "track_number": 5,
+        "uri": "spotify:track:F2ulFnwZqvr4MS4rJaH8mf",
+        "external_urls": {
+          "spotify": "https://open.spotify.com/track/F2ulFnwZqvr4MS4rJaH8mf"
+        },
+        "artists": [
+          {
+            "id": "OhbVrpoiVgRV5IfLBcbfno",
+            "name": "Neon Harbor",
+            "uri": "spotify:artist:OhbVrpoiVgRV5IfLBcbfno"
+          },
+          {
+            "id": "4IWrXPvhsBkDa9U4UqGWlG",
+            "name": "Kira Vance",
+            "uri": "spotify:artist:4IWrXPvhsBkDa9U4UqGWlG"
+          }
+        ],
+        "album": {
+          "id": "6g3Ot1OGMmjxWkI9X7H6aM",
+          "name": "Afterglow District",
+          "album_type": "album",
+          "release_date": "2025-03-14",
+          "images": [
+            {
+              "url": "https://i.scdn.co/image/uFbh7x41Ztpdp4K8ffUF0e",
+              "width": 640,
+              "height": 640
+            },
+            {
+              "url": "https://i.scdn.co/image/WIXiiQE8JkqH3MB9n7IWUS",
+              "width": 300,
+              "height": 300
+            },
+            {
+              "url": "https://i.scdn.co/image/mTtzQPxC5HChpoevbLJoLo",
+              "width": 64,
+              "height": 64
+            }
+          ],
+          "artists": [
+            {
+              "id": "OhbVrpoiVgRV5IfLBcbfno",
+              "name": "Neon Harbor"
+            }
+          ]
+        }
+      },
+      "played_at": "2026-10-04T01:25:57.416Z",
+      "context": {
+        "type": "artist",
+        "uri": "spotify:artist:OhbVrpoiVgRV5IfLBcbfno"
+      }
+    },
+    {
+      "track": {
+        "id": "B0ULru2p17fr4CpWDKNQyv",
+        "name": "Afterglow District",
+        "duration_ms": 238029,
+        "explicit": false,
+        "track_number": 2,
+        "uri": "spotify:track:B0ULru2p17fr4CpWDKNQyv",
+        "external_urls": {
+          "spotify": "https://open.spotify.com/track/B0ULru2p17fr4CpWDKNQyv"
+        },
+        "artists": [
+          {
+            "id": "OhbVrpoiVgRV5IfLBcbfno",
+            "name": "Neon Harbor",
+            "uri": "spotify:artist:OhbVrpoiVgRV5IfLBcbfno"
+          }
+        ],
+        "album": {
+          "id": "6g3Ot1OGMmjxWkI9X7H6aM",
+          "name": "Afterglow District",
+          "album_type": "album",
+          "release_date": "2025-03-14",
+          "images": [
+            {
+              "url": "https://i.scdn.co/image/uFbh7x41Ztpdp4K8ffUF0e",
+              "width": 640,
+              "height": 640
+            },
+            {
+              "url": "https://i.scdn.co/image/WIXiiQE8JkqH3MB9n7IWUS",
+              "width": 300,
+              "height": 300
+            },
+            {
+              "url": "https://i.scdn.co/image/mTtzQPxC5HChpoevbLJoLo",
+              "width": 64,
+              "height": 64
+            }
+          ],
+          "artists": [
+            {
+              "id": "OhbVrpoiVgRV5IfLBcbfno",
+              "name": "Neon Harbor"
+            }
+          ]
+        }
+      },
+      "played_at": "2026-10-04T01:22:34.869Z",
+      "context": {
+        "type": "artist",
+        "uri": "spotify:artist:OhbVrpoiVgRV5IfLBcbfno"
+      }
+    },
+    {
+      "track": {
+        "id": "B9xO51DTjBlUH9PrNZ6IXE",
+        "name": "Streetlight Sonata",
+        "duration_ms": 214476,
+        "explicit": false,
+        "track_number": 1,
+        "uri": "spotify:track:B9xO51DTjBlUH9PrNZ6IXE",
+        "external_urls": {
+          "spotify": "https://open.spotify.com/track/B9xO51DTjBlUH9PrNZ6IXE"
+        },
+        "artists": [
+          {
+            "id": "OhbVrpoiVgRV5IfLBcbfno",
+            "name": "Neon Harbor",
+            "uri": "spotify:artist:OhbVrpoiVgRV5IfLBcbfno"
+          }
+        ],
+        "album": {
+          "id": "6g3Ot1OGMmjxWkI9X7H6aM",
+          "name": "Afterglow District",
+          "album_type": "album",
+          "release_date": "2025-03-14",
+          "images": [
+            {
+              "url": "https://i.scdn.co/image/uFbh7x41Ztpdp4K8ffUF0e",
+              "width": 640,
+              "height": 640
+            },
+            {
+              "url": "https://i.scdn.co/image/WIXiiQE8JkqH3MB9n7IWUS",
+              "width": 300,
+              "height": 300
+            },
+            {
+              "url": "https://i.scdn.co/image/mTtzQPxC5HChpoevbLJoLo",
+              "width": 64,
+              "height": 64
+            }
+          ],
+          "artists": [
+            {
+              "id": "OhbVrpoiVgRV5IfLBcbfno",
+              "name": "Neon Harbor"
+            }
+          ]
+        }
+      },
+      "played_at": "2026-10-04T01:18:35.005Z",
+      "context": {
+        "type": "artist",
+        "uri": "spotify:artist:OhbVrpoiVgRV5IfLBcbfno"
+      }
+    },
+    {
+      "track": {
+        "id": "IDAdmHxNWFOCWdnrJi7sC4",
+        "name": "Glass Houses",
+        "duration_ms": 205715,
+        "explicit": false,
+        "track_number": 1,
+        "uri": "spotify:track:IDAdmHxNWFOCWdnrJi7sC4",
+        "external_urls": {
+          "spotify": "https://open.spotify.com/track/IDAdmHxNWFOCWdnrJi7sC4"
+        },
+        "artists": [
+          {
+            "id": "4IWrXPvhsBkDa9U4UqGWlG",
+            "name": "Kira Vance",
+            "uri": "spotify:artist:4IWrXPvhsBkDa9U4UqGWlG"
+          }
+        ],
+        "album": {
+          "id": "PeX9PcWb8pm1bNjpiEQhK8",
+          "name": "Glass Houses",
+          "album_type": "album",
+          "release_date": "2026-09-12",
+          "images": [
+            {
+              "url": "https://i.scdn.co/image/nDSqXxkMM9VThX0k9tgLb7",
+              "width": 640,
+              "height": 640
+            },
+            {
+              "url": "https://i.scdn.co/image/tKR69yz8TmeLS1OpgSXt2R",
+              "width": 300,
+              "height": 300
+            },
+            {
+              "url": "https://i.scdn.co/image/MZhYKYcwIBQxeGPva2A0Fg",
+              "width": 64,
+              "height": 64
+            }
+          ],
+          "artists": [
+            {
+              "id": "4IWrXPvhsBkDa9U4UqGWlG",
+              "name": "Kira Vance"
+            }
+          ]
+        }
+      },
+      "played_at": "2026-10-03T19:45:26.126Z",
+      "context": null
+    },
+    {
+      "track": {
+        "id": "FsQ8z0WJcDfuquhXz3G0aQ",
+        "name": "Hall of Mirrors",
+        "duration_ms": 274890,
+        "explicit": false,
+        "track_number": 2,
+        "uri": "spotify:track:FsQ8z0WJcDfuquhXz3G0aQ",
+        "external_urls": {
+          "spotify": "https://open.spotify.com/track/FsQ8z0WJcDfuquhXz3G0aQ"
+        },
+        "artists": [
+          {
+            "id": "jOkYRBMeyyMDHqJ38aRUhR",
+            "name": "Sable & The Echoes",
+            "uri": "spotify:artist:jOkYRBMeyyMDHqJ38aRUhR"
+          }
+        ],
+        "album": {
+          "id": "Sb24WKyEa8wtWy2591AIVV",
+          "name": "Echo Chamber Music",
+          "album_type": "album",
+          "release_date": "2024-02-16",
+          "images": [
+            {
+              "url": "https://i.scdn.co/image/IZM5oForBFbyvQRZzUk1D6",
+              "width": 640,
+              "height": 640
+            },
+            {
+              "url": "https://i.scdn.co/image/iNIb6zLKQbfPBi3Dldqyun",
+              "width": 300,
+              "height": 300
+            },
+            {
+              "url": "https://i.scdn.co/image/DuvW4yrW81Aq1fEbVId8wo",
+              "width": 64,
+              "height": 64
+            }
+          ],
+          "artists": [
+            {
+              "id": "jOkYRBMeyyMDHqJ38aRUhR",
+              "name": "Sable & The Echoes"
+            }
+          ]
+        }
+      },
+      "played_at": "2026-10-03T19:41:59.923Z",
+      "context": null
+    },
+    {
+      "track": {
+        "id": "ACSMEscosTsS3DeRo7qYYO",
+        "name": "Golden Hour",
+        "duration_ms": 176603,
+        "explicit": false,
+        "track_number": 1,
+        "uri": "spotify:track:ACSMEscosTsS3DeRo7qYYO",
+        "external_urls": {
+          "spotify": "https://open.spotify.com/track/ACSMEscosTsS3DeRo7qYYO"
+        },
+        "artists": [
+          {
+            "id": "kIUpkDyr7OSJoRu1XXdo0c",
+            "name": "Lucid Avenue",
+            "uri": "spotify:artist:kIUpkDyr7OSJoRu1XXdo0c"
+          }
+        ],
+        "album": {
+          "id": "bQmzvr3e9XrwPGzR1Iv8bh",
+          "name": "Golden Hour",
+          "album_type": "single",
+          "release_date": "2026-05-09",
+          "images": [
+            {
+              "url": "https://i.scdn.co/image/4qlL9qcgMBwUYuBMGhy5Km",
+              "width": 640,
+              "height": 640
+            },
+            {
+              "url": "https://i.scdn.co/image/qcTBaH7ZIRU8VVQmxBe8Q6",
+              "width": 300,
+              "height": 300
+            },
+            {
+              "url": "https://i.scdn.co/image/vNuQ2hU5tGtQAuzSsJimAQ",
+              "width": 64,
+              "height": 64
+            }
+          ],
+          "artists": [
+            {
+              "id": "kIUpkDyr7OSJoRu1XXdo0c",
+              "name": "Lucid Avenue"
+            }
+          ]
+        }
+      },
+      "played_at": "2026-10-03T19:37:23.507Z",
+      "context": null
+    },
+    {
+      "track": {
+        "id": "aTIircdJsS8iO3WFg3aKsE",
+        "name": "Golden Hour",
+        "duration_ms": 247490,
+        "explicit": false,
+        "track_number": 4,
+        "uri": "spotify:track:aTIircdJsS8iO3WFg3aKsE",
+        "external_urls": {
+          "spotify": "https://open.spotify.com/track/aTIircdJsS8iO3WFg3aKsE"
+        },
+        "artists": [
+          {
+            "id": "vrjn9Wvgfygw2wMqZcUDIh",
+            "name": "Juniper Lane",
+            "uri": "spotify:artist:vrjn9Wvgfygw2wMqZcUDIh"
+          }
+        ],
+        "album": {
+          "id": "n3z5dkyayq7YYDsBS9UYJQ",
+          "name": "Porch Light Hymns",
+          "album_type": "album",
+          "release_date": "2023-06-02",
+          "images": [
+            {
+              "url": "https://i.scdn.co/image/TFjmsn9dLVIdVuddLEG62H",
+              "width": 640,
+              "height": 640
+            },
+            {
+              "url": "https://i.scdn.co/image/kd9Gf2leMeR3pzh84KpLMc",
+              "width": 300,
+              "height": 300
+            },
+            {
+              "url": "https://i.scdn.co/image/NfAQLKHu7qnQTupqziQPtD",
+              "width": 64,
+              "height": 64
+            }
+          ],
+          "artists": [
+            {
+              "id": "vrjn9Wvgfygw2wMqZcUDIh",
+              "name": "Juniper Lane"
+            }
+          ]
+        }
+      },
+      "played_at": "2026-10-03T19:34:26.193Z",
+      "context": null
+    },
+    {
+      "track": {
+        "id": "6sChDStSz8rGIFCfMc4BVu",
+        "name": "Hayloft Radio",
+        "duration_ms": 208618,
+        "explicit": false,
+        "track_number": 7,
+        "uri": "spotify:track:6sChDStSz8rGIFCfMc4BVu",
+        "external_urls": {
+          "spotify": "https://open.spotify.com/track/6sChDStSz8rGIFCfMc4BVu"
+        },
+        "artists": [
+          {
+            "id": "Zuzren68K4TunPFz46PDjq",
+            "name": "Marlow Fields",
+            "uri": "spotify:artist:Zuzren68K4TunPFz46PDjq"
+          },
+          {
+            "id": "o3gyrDO1xkxwnQrS7RPeMO",
+            "name": "Coastline Radio",
+            "uri": "spotify:artist:o3gyrDO1xkxwnQrS7RPeMO"
+          }
+        ],
+        "album": {
+          "id": "8yRV5lNKtzJ1atsnBYLMPu",
+          "name": "Wildflower Season",
+          "album_type": "album",
+          "release_date": "2025-07-18",
+          "images": [
+            {
+              "url": "https://i.scdn.co/image/DCCRnGEY59YVkQfsGQONvf",
+              "width": 640,
+              "height": 640
+            },
+            {
+              "url": "https://i.scdn.co/image/08WpRtoZmjbcpEN2XeDA4O",
+              "width": 300,
+              "height": 300
+            },
+            {
+              "url": "https://i.scdn.co/image/KmTSyFzpjPSa5W3X4gXBol",
+              "width": 64,
+              "height": 64
+            }
+          ],
+          "artists": [
+            {
+              "id": "Zuzren68K4TunPFz46PDjq",
+              "name": "Marlow Fields"
+            }
+          ]
+        }
+      },
+      "played_at": "2026-10-03T13:42:24.934Z",
+      "context": {
+        "type": "playlist",
+        "uri": "spotify:playlist:QF3jCIEwvJWIyD7u3mSpKy"
+      }
+    },
+    {
+      "track": {
+        "id": "IDAdmHxNWFOCWdnrJi7sC4",
+        "name": "Glass Houses",
+        "duration_ms": 205715,
+        "explicit": false,
+        "track_number": 1,
+        "uri": "spotify:track:IDAdmHxNWFOCWdnrJi7sC4",
+        "external_urls": {
+          "spotify": "https://open.spotify.com/track/IDAdmHxNWFOCWdnrJi7sC4"
+        },
+        "artists": [
+          {
+            "id": "4IWrXPvhsBkDa9U4UqGWlG",
+            "name": "Kira Vance",
+            "uri": "spotify:artist:4IWrXPvhsBkDa9U4UqGWlG"
+          }
+        ],
+        "album": {
+          "id": "PeX9PcWb8pm1bNjpiEQhK8",
+          "name": "Glass Houses",
+          "album_type": "album",
+          "release_date": "2026-09-12",
+          "images": [
+            {
+              "url": "https://i.scdn.co/image/nDSqXxkMM9VThX0k9tgLb7",
+              "width": 640,
+              "height": 640
+            },
+            {
+              "url": "https://i.scdn.co/image/tKR69yz8TmeLS1OpgSXt2R",
+              "width": 300,
+              "height": 300
+            },
+            {
+              "url": "https://i.scdn.co/image/MZhYKYcwIBQxeGPva2A0Fg",
+              "width": 64,
+              "height": 64
+            }
+          ],
+          "artists": [
+            {
+              "id": "4IWrXPvhsBkDa9U4UqGWlG",
+              "name": "Kira Vance"
+            }
+          ]
+        }
+      },
+      "played_at": "2026-10-03T13:38:55.646Z",
+      "context": {
+        "type": "playlist",
+        "uri": "spotify:playlist:QF3jCIEwvJWIyD7u3mSpKy"
+      }
+    },
+    {
+      "track": {
+        "id": "F2ulFnwZqvr4MS4rJaH8mf",
+        "name": "Tram Lines",
+        "duration_ms": 201247,
+        "explicit": false,
+        "track_number": 5,
+        "uri": "spotify:track:F2ulFnwZqvr4MS4rJaH8mf",
+        "external_urls": {
+          "spotify": "https://open.spotify.com/track/F2ulFnwZqvr4MS4rJaH8mf"
+        },
+        "artists": [
+          {
+            "id": "OhbVrpoiVgRV5IfLBcbfno",
+            "name": "Neon Harbor",
+            "uri": "spotify:artist:OhbVrpoiVgRV5IfLBcbfno"
+          },
+          {
+            "id": "4IWrXPvhsBkDa9U4UqGWlG",
+            "name": "Kira Vance",
+            "uri": "spotify:artist:4IWrXPvhsBkDa9U4UqGWlG"
+          }
+        ],
+        "album": {
+          "id": "6g3Ot1OGMmjxWkI9X7H6aM",
+          "name": "Afterglow District",
+          "album_type": "album",
+          "release_date": "2025-03-14",
+          "images": [
+            {
+              "url": "https://i.scdn.co/image/uFbh7x41Ztpdp4K8ffUF0e",
+              "width": 640,
+              "height": 640
+            },
+            {
+              "url": "https://i.scdn.co/image/WIXiiQE8JkqH3MB9n7IWUS",
+              "width": 300,
+              "height": 300
+            },
+            {
+              "url": "https://i.scdn.co/image/mTtzQPxC5HChpoevbLJoLo",
+              "width": 64,
+              "height": 64
+            }
+          ],
+          "artists": [
+            {
+              "id": "OhbVrpoiVgRV5IfLBcbfno",
+              "name": "Neon Harbor"
+            }
+          ]
+        }
+      },
+      "played_at": "2026-10-03T13:35:28.454Z",
+      "context": {
+        "type": "playlist",
+        "uri": "spotify:playlist:QF3jCIEwvJWIyD7u3mSpKy"
+      }
+    },
+    {
+      "track": {
+        "id": "8tfphJWAMMYNoXHyC6Ct3L",
+        "name": "Bruised Peach",
+        "duration_ms": 195439,
+        "explicit": true,
+        "track_number": 6,
+        "uri": "spotify:track:8tfphJWAMMYNoXHyC6Ct3L",
+        "external_urls": {
+          "spotify": "https://open.spotify.com/track/8tfphJWAMMYNoXHyC6Ct3L"
+        },
+        "artists": [
+          {
+            "id": "7yfJs1ON43xKmTecQoXsf2",
+            "name": "Midnight Orchard",
+            "uri": "spotify:artist:7yfJs1ON43xKmTecQoXsf2"
+          }
+        ],
+        "album": {
+          "id": "u7W7eaDNKgeInGqi7w4e4p",
+          "name": "Night Fruit",
+          "album_type": "album",
+          "release_date": "2026-08-21",
+          "images": [
+            {
+              "url": "https://i.scdn.co/image/xskC1ITtNZPHaQ0Jt7Qg84",
+              "width": 640,
+              "height": 640
+            },
+            {
+              "url": "https://i.scdn.co/image/iqh4gVJjrsMnTvnRO2qGFq",
+              "width": 300,
+              "height": 300
+            },
+            {
+              "url": "https://i.scdn.co/image/562dfOB1rcavXiOqkVCJTB",
+              "width": 64,
+              "height": 64
+            }
+          ],
+          "artists": [
+            {
+              "id": "7yfJs1ON43xKmTecQoXsf2",
+              "name": "Midnight Orchard"
+            }
+          ]
+        }
+      },
+      "played_at": "2026-10-03T13:32:05.946Z",
+      "context": {
+        "type": "playlist",
+        "uri": "spotify:playlist:QF3jCIEwvJWIyD7u3mSpKy"
+      }
+    },
+    {
+      "track": {
+        "id": "ACSMEscosTsS3DeRo7qYYO",
+        "name": "Golden Hour",
+        "duration_ms": 176603,
+        "explicit": false,
+        "track_number": 1,
+        "uri": "spotify:track:ACSMEscosTsS3DeRo7qYYO",
+        "external_urls": {
+          "spotify": "https://open.spotify.com/track/ACSMEscosTsS3DeRo7qYYO"
+        },
+        "artists": [
+          {
+            "id": "kIUpkDyr7OSJoRu1XXdo0c",
+            "name": "Lucid Avenue",
+            "uri": "spotify:artist:kIUpkDyr7OSJoRu1XXdo0c"
+          }
+        ],
+        "album": {
+          "id": "bQmzvr3e9XrwPGzR1Iv8bh",
+          "name": "Golden Hour",
+          "album_type": "single",
+          "release_date": "2026-05-09",
+          "images": [
+            {
+              "url": "https://i.scdn.co/image/4qlL9qcgMBwUYuBMGhy5Km",
+              "width": 640,
+              "height": 640
+            },
+            {
+              "url": "https://i.scdn.co/image/qcTBaH7ZIRU8VVQmxBe8Q6",
+              "width": 300,
+              "height": 300
+            },
+            {
+              "url": "https://i.scdn.co/image/vNuQ2hU5tGtQAuzSsJimAQ",
+              "width": 64,
+              "height": 64
+            }
+          ],
+          "artists": [
+            {
+              "id": "kIUpkDyr7OSJoRu1XXdo0c",
+              "name": "Lucid Avenue"
+            }
+          ]
+        }
+      },
+      "played_at": "2026-10-03T13:28:50.060Z",
+      "context": {
+        "type": "playlist",
+        "uri": "spotify:playlist:QF3jCIEwvJWIyD7u3mSpKy"
+      }
+    },
+    {
+      "track": {
+        "id": "IDAdmHxNWFOCWdnrJi7sC4",
+        "name": "Glass Houses",
+        "duration_ms": 205715,
+        "explicit": false,
+        "track_number": 1,
+        "uri": "spotify:track:IDAdmHxNWFOCWdnrJi7sC4",
+        "external_urls": {
+          "spotify": "https://open.spotify.com/track/IDAdmHxNWFOCWdnrJi7sC4"
+        },
+        "artists": [
+          {
+            "id": "4IWrXPvhsBkDa9U4UqGWlG",
+            "name": "Kira Vance",
+            "uri": "spotify:artist:4IWrXPvhsBkDa9U4UqGWlG"
+          }
+        ],
+        "album": {
+          "id": "PeX9PcWb8pm1bNjpiEQhK8",
+          "name": "Glass Houses",
+          "album_type": "album",
+          "release_date": "2026-09-12",
+          "images": [
+            {
+              "url": "https://i.scdn.co/image/nDSqXxkMM9VThX0k9tgLb7",
+              "width": 640,
+              "height": 640
+            },
+            {
+              "url": "https://i.scdn.co/image/tKR69yz8TmeLS1OpgSXt2R",
+              "width": 300,
+              "height": 300
+            },
+            {
+              "url": "https://i.scdn.co/image/MZhYKYcwIBQxeGPva2A0Fg",
+              "width": 64,
+              "height": 64
+            }
+          ],
+          "artists": [
+            {
+              "id": "4IWrXPvhsBkDa9U4UqGWlG",
+              "name": "Kira Vance"
+            }
+          ]
+        }
+      },
+      "played_at": "2026-10-03T13:25:51.159Z",
+      "context": {
+        "type": "playlist",
+        "uri": "spotify:playlist:QF3jCIEwvJWIyD7u3mSpKy"
+      }
+    },
+    {
+      "track": {
+        "id": "xEJHwBVJvwSDrtqohUmuhV",
+        "name": "Dial Tone Heart",
+        "duration_ms": 189548,
+        "explicit": true,
+        "track_number": 3,
+        "uri": "spotify:track:xEJHwBVJvwSDrtqohUmuhV",
+        "external_urls": {
+          "spotify": "https://open.spotify.com/track/xEJHwBVJvwSDrtqohUmuhV"
+        },
+        "artists": [
+          {
+            "id": "GMbJmTPSIAoCLrZ3aWZkSB",
+            "name": "Velvet Static",
+            "uri": "spotify:artist:GMbJmTPSIAoCLrZ3aWZkSB"
+          }
+        ],
+        "album": {
+          "id": "aeTOdoe5c3veGprQFnIiU7",
+          "name": "Soft Interference",
+          "album_type": "album",
+          "release_date": "2024-09-27",
+          "images": [
+            {
+              "url": "https://i.scdn.co/image/4KKEpYEZAmggQBwBAD3UdR",
+              "width": 640,
+              "height": 640
+            },
+            {
+              "url": "https://i.scdn.co/image/PPgdzUvZ3gpmmICiBlrDp3",
+              "width": 300,
+              "height": 300
+            },
+            {
+              "url": "https://i.scdn.co/image/7eCZ32JgdPI1af7W2pkAFE",
+              "width": 64,
+              "height": 64
+            }
+          ],
+          "artists": [
+            {
+              "id": "GMbJmTPSIAoCLrZ3aWZkSB",
+              "name": "Velvet Static"
+            }
+          ]
+        }
+      },
+      "played_at": "2026-10-03T13:22:23.847Z",
+      "context": {
+        "type": "playlist",
+        "uri": "spotify:playlist:QF3jCIEwvJWIyD7u3mSpKy"
+      }
+    },
+    {
+      "track": {
+        "id": "PC6rlLBO0FfEwAvuQg2kvA",
+        "name": "Kernel Panic",
+        "duration_ms": 199710,
+        "explicit": false,
+        "track_number": 8,
+        "uri": "spotify:track:PC6rlLBO0FfEwAvuQg2kvA",
+        "external_urls": {
+          "spotify": "https://open.spotify.com/track/PC6rlLBO0FfEwAvuQg2kvA"
+        },
+        "artists": [
+          {
+            "id": "ipVJIqVLB5LzxoiGFfWd3h",
+            "name": "DJ Kettlecorn",
+            "uri": "spotify:artist:ipVJIqVLB5LzxoiGFfWd3h"
+          },
+          {
+            "id": "GMbJmTPSIAoCLrZ3aWZkSB",
+            "name": "Velvet Static",
+            "uri": "spotify:artist:GMbJmTPSIAoCLrZ3aWZkSB"
+          }
+        ],
+        "album": {
+          "id": "Z9SHDdJp62hDiZDQHJMu8W",
+          "name": "Pop Goes the Kernel",
+          "album_type": "album",
+          "release_date": "2026-01-30",
+          "images": [
+            {
+              "url": "https://i.scdn.co/image/5CN0U5GB16JC5kV3ECqWp1",
+              "width": 640,
+              "height": 640
+            },
+            {
+              "url": "https://i.scdn.co/image/OrXXHFOprCeTsprvu5Ifij",
+              "width": 300,
+              "height": 300
+            },
+            {
+              "url": "https://i.scdn.co/image/oySjTneAAvIDAdn1Ay5XL8",
+              "width": 64,
+              "height": 64
+            }
+          ],
+          "artists": [
+            {
+              "id": "ipVJIqVLB5LzxoiGFfWd3h",
+              "name": "DJ Kettlecorn"
+            }
+          ]
+        }
+      },
+      "played_at": "2026-10-03T13:19:11.814Z",
+      "context": {
+        "type": "playlist",
+        "uri": "spotify:playlist:QF3jCIEwvJWIyD7u3mSpKy"
+      }
+    },
+    {
+      "track": {
+        "id": "qbfo9R13KL8bWR0rKcWWlE",
+        "name": "Butter & Bass",
+        "duration_ms": 183531,
+        "explicit": true,
+        "track_number": 3,
+        "uri": "spotify:track:qbfo9R13KL8bWR0rKcWWlE",
+        "external_urls": {
+          "spotify": "https://open.spotify.com/track/qbfo9R13KL8bWR0rKcWWlE"
+        },
+        "artists": [
+          {
+            "id": "ipVJIqVLB5LzxoiGFfWd3h",
+            "name": "DJ Kettlecorn",
+            "uri": "spotify:artist:ipVJIqVLB5LzxoiGFfWd3h"
+          }
+        ],
+        "album": {
+          "id": "Z9SHDdJp62hDiZDQHJMu8W",
+          "name": "Pop Goes the Kernel",
+          "album_type": "album",
+          "release_date": "2026-01-30",
+          "images": [
+            {
+              "url": "https://i.scdn.co/image/5CN0U5GB16JC5kV3ECqWp1",
+              "width": 640,
+              "height": 640
+            },
+            {
+              "url": "https://i.scdn.co/image/OrXXHFOprCeTsprvu5Ifij",
+              "width": 300,
+              "height": 300
+            },
+            {
+              "url": "https://i.scdn.co/image/oySjTneAAvIDAdn1Ay5XL8",
+              "width": 64,
+              "height": 64
+            }
+          ],
+          "artists": [
+            {
+              "id": "ipVJIqVLB5LzxoiGFfWd3h",
+              "name": "DJ Kettlecorn"
+            }
+          ]
+        }
+      },
+      "played_at": "2026-10-03T13:15:50.459Z",
+      "context": {
+        "type": "playlist",
+        "uri": "spotify:playlist:QF3jCIEwvJWIyD7u3mSpKy"
+      }
+    },
+    {
+      "track": {
+        "id": "1jF7TsGTrA1EEpDJjym6MG",
+        "name": "Overcast",
+        "duration_ms": 231764,
+        "explicit": false,
+        "track_number": 9,
+        "uri": "spotify:track:1jF7TsGTrA1EEpDJjym6MG",
+        "external_urls": {
+          "spotify": "https://open.spotify.com/track/1jF7TsGTrA1EEpDJjym6MG"
+        },
+        "artists": [
+          {
+            "id": "4IWrXPvhsBkDa9U4UqGWlG",
+            "name": "Kira Vance",
+            "uri": "spotify:artist:4IWrXPvhsBkDa9U4UqGWlG"
+          },
+          {
+            "id": "vrjn9Wvgfygw2wMqZcUDIh",
+            "name": "Juniper Lane",
+            "uri": "spotify:artist:vrjn9Wvgfygw2wMqZcUDIh"
+          }
+        ],
+        "album": {
+          "id": "PeX9PcWb8pm1bNjpiEQhK8",
+          "name": "Glass Houses",
+          "album_type": "album",
+          "release_date": "2026-09-12",
+          "images": [
+            {
+              "url": "https://i.scdn.co/image/nDSqXxkMM9VThX0k9tgLb7",
+              "width": 640,
+              "height": 640
+            },
+            {
+              "url": "https://i.scdn.co/image/tKR69yz8TmeLS1OpgSXt2R",
+              "width": 300,
+              "height": 300
+            },
+            {
+              "url": "https://i.scdn.co/image/MZhYKYcwIBQxeGPva2A0Fg",
+              "width": 64,
+              "height": 64
+            }
+          ],
+          "artists": [
+            {
+              "id": "4IWrXPvhsBkDa9U4UqGWlG",
+              "name": "Kira Vance"
+            }
+          ]
+        }
+      },
+      "played_at": "2026-10-02T23:48:37.892Z",
+      "context": {
+        "type": "album",
+        "uri": "spotify:album:PeX9PcWb8pm1bNjpiEQhK8"
+      }
+    },
+    {
+      "track": {
+        "id": "FhbOMZpTktJaJAfo16hD8h",
+        "name": "Paper Planes at Noon",
+        "duration_ms": 219663,
+        "explicit": false,
+        "track_number": 4,
+        "uri": "spotify:track:FhbOMZpTktJaJAfo16hD8h",
+        "external_urls": {
+          "spotify": "https://open.spotify.com/track/FhbOMZpTktJaJAfo16hD8h"
+        },
+        "artists": [
+          {
+            "id": "4IWrXPvhsBkDa9U4UqGWlG",
+            "name": "Kira Vance",
+            "uri": "spotify:artist:4IWrXPvhsBkDa9U4UqGWlG"
+          }
+        ],
+        "album": {
+          "id": "PeX9PcWb8pm1bNjpiEQhK8",
+          "name": "Glass Houses",
+          "album_type": "album",
+          "release_date": "2026-09-12",
+          "images": [
+            {
+              "url": "https://i.scdn.co/image/nDSqXxkMM9VThX0k9tgLb7",
+              "width": 640,
+              "height": 640
+            },
+            {
+              "url": "https://i.scdn.co/image/tKR69yz8TmeLS1OpgSXt2R",
+              "width": 300,
+              "height": 300
+            },
+            {
+              "url": "https://i.scdn.co/image/MZhYKYcwIBQxeGPva2A0Fg",
+              "width": 64,
+              "height": 64
+            }
+          ],
+          "artists": [
+            {
+              "id": "4IWrXPvhsBkDa9U4UqGWlG",
+              "name": "Kira Vance"
+            }
+          ]
+        }
+      },
+      "played_at": "2026-10-02T23:47:10.289Z",
+      "context": {
+        "type": "album",
+        "uri": "spotify:album:PeX9PcWb8pm1bNjpiEQhK8"
+      }
+    },
+    {
+      "track": {
+        "id": "IDAdmHxNWFOCWdnrJi7sC4",
+        "name": "Glass Houses",
+        "duration_ms": 205715,
+        "explicit": false,
+        "track_number": 1,
+        "uri": "spotify:track:IDAdmHxNWFOCWdnrJi7sC4",
+        "external_urls": {
+          "spotify": "https://open.spotify.com/track/IDAdmHxNWFOCWdnrJi7sC4"
+        },
+        "artists": [
+          {
+            "id": "4IWrXPvhsBkDa9U4UqGWlG",
+            "name": "Kira Vance",
+            "uri": "spotify:artist:4IWrXPvhsBkDa9U4UqGWlG"
+          }
+        ],
+        "album": {
+          "id": "PeX9PcWb8pm1bNjpiEQhK8",
+          "name": "Glass Houses",
+          "album_type": "album",
+          "release_date": "2026-09-12",
+          "images": [
+            {
+              "url": "https://i.scdn.co/image/nDSqXxkMM9VThX0k9tgLb7",
+              "width": 640,
+              "height": 640
+            },
+            {
+              "url": "https://i.scdn.co/image/tKR69yz8TmeLS1OpgSXt2R",
+              "width": 300,
+              "height": 300
+            },
+            {
+              "url": "https://i.scdn.co/image/MZhYKYcwIBQxeGPva2A0Fg",
+              "width": 64,
+              "height": 64
+            }
+          ],
+          "artists": [
+            {
+              "id": "4IWrXPvhsBkDa9U4UqGWlG",
+              "name": "Kira Vance"
+            }
+          ]
+        }
+      },
+      "played_at": "2026-10-02T23:43:29.694Z",
+      "context": {
+        "type": "album",
+        "uri": "spotify:album:PeX9PcWb8pm1bNjpiEQhK8"
+      }
+    },
+    {
+      "track": {
+        "id": "FhbOMZpTktJaJAfo16hD8h",
+        "name": "Paper Planes at Noon",
+        "duration_ms": 219663,
+        "explicit": false,
+        "track_number": 4,
+        "uri": "spotify:track:FhbOMZpTktJaJAfo16hD8h",
+        "external_urls": {
+          "spotify": "https://open.spotify.com/track/FhbOMZpTktJaJAfo16hD8h"
+        },
+        "artists": [
+          {
+            "id": "4IWrXPvhsBkDa9U4UqGWlG",
+            "name": "Kira Vance",
+            "uri": "spotify:artist:4IWrXPvhsBkDa9U4UqGWlG"
+          }
+        ],
+        "album": {
+          "id": "PeX9PcWb8pm1bNjpiEQhK8",
+          "name": "Glass Houses",
+          "album_type": "album",
+          "release_date": "2026-09-12",
+          "images": [
+            {
+              "url": "https://i.scdn.co/image/nDSqXxkMM9VThX0k9tgLb7",
+              "width": 640,
+              "height": 640
+            },
+            {
+              "url": "https://i.scdn.co/image/tKR69yz8TmeLS1OpgSXt2R",
+              "width": 300,
+              "height": 300
+            },
+            {
+              "url": "https://i.scdn.co/image/MZhYKYcwIBQxeGPva2A0Fg",
+              "width": 64,
+              "height": 64
+            }
+          ],
+          "artists": [
+            {
+              "id": "4IWrXPvhsBkDa9U4UqGWlG",
+              "name": "Kira Vance"
+            }
+          ]
+        }
+      },
+      "played_at": "2026-10-02T12:28:08.083Z",
+      "context": {
+        "type": "playlist",
+        "uri": "spotify:playlist:4i3erXY2Av7YGr0asUt1LL"
+      }
+    },
+    {
+      "track": {
+        "id": "tKNdN9Vg8WnOnqQfkplJek",
+        "name": "Low Tide FM",
+        "duration_ms": 268002,
+        "explicit": false,
+        "track_number": 1,
+        "uri": "spotify:track:tKNdN9Vg8WnOnqQfkplJek",
+        "external_urls": {
+          "spotify": "https://open.spotify.com/track/tKNdN9Vg8WnOnqQfkplJek"
+        },
+        "artists": [
+          {
+            "id": "o3gyrDO1xkxwnQrS7RPeMO",
+            "name": "Coastline Radio",
+            "uri": "spotify:artist:o3gyrDO1xkxwnQrS7RPeMO"
+          }
+        ],
+        "album": {
+          "id": "Jahe84S5jIc1xLJjBictx5",
+          "name": "Low Tide FM",
+          "album_type": "album",
+          "release_date": "2022-11-11",
+          "images": [
+            {
+              "url": "https://i.scdn.co/image/7Y3c5wnRpQgwXJ43ANVj77",
+              "width": 640,
+              "height": 640
+            },
+            {
+              "url": "https://i.scdn.co/image/p3kZZl4AblV7vY7AZQ3VZp",
+              "width": 300,
+              "height": 300
+            },
+            {
+              "url": "https://i.scdn.co/image/rkYSgy3c2Eom06Dwt0Y3oo",
+              "width": 64,
+              "height": 64
+            }
+          ],
+          "artists": [
+            {
+              "id": "o3gyrDO1xkxwnQrS7RPeMO",
+              "name": "Coastline Radio"
+            }
+          ]
+        }
+      },
+      "played_at": "2026-10-02T12:27:02.776Z",
+      "context": {
+        "type": "playlist",
+        "uri": "spotify:playlist:4i3erXY2Av7YGr0asUt1LL"
+      }
+    },
+    {
+      "track": {
+        "id": "B0ULru2p17fr4CpWDKNQyv",
+        "name": "Afterglow District",
+        "duration_ms": 238029,
+        "explicit": false,
+        "track_number": 2,
+        "uri": "spotify:track:B0ULru2p17fr4CpWDKNQyv",
+        "external_urls": {
+          "spotify": "https://open.spotify.com/track/B0ULru2p17fr4CpWDKNQyv"
+        },
+        "artists": [
+          {
+            "id": "OhbVrpoiVgRV5IfLBcbfno",
+            "name": "Neon Harbor",
+            "uri": "spotify:artist:OhbVrpoiVgRV5IfLBcbfno"
+          }
+        ],
+        "album": {
+          "id": "6g3Ot1OGMmjxWkI9X7H6aM",
+          "name": "Afterglow District",
+          "album_type": "album",
+          "release_date": "2025-03-14",
+          "images": [
+            {
+              "url": "https://i.scdn.co/image/uFbh7x41Ztpdp4K8ffUF0e",
+              "width": 640,
+              "height": 640
+            },
+            {
+              "url": "https://i.scdn.co/image/WIXiiQE8JkqH3MB9n7IWUS",
+              "width": 300,
+              "height": 300
+            },
+            {
+              "url": "https://i.scdn.co/image/mTtzQPxC5HChpoevbLJoLo",
+              "width": 64,
+              "height": 64
+            }
+          ],
+          "artists": [
+            {
+              "id": "OhbVrpoiVgRV5IfLBcbfno",
+              "name": "Neon Harbor"
+            }
+          ]
+        }
+      },
+      "played_at": "2026-10-02T12:22:32.671Z",
+      "context": {
+        "type": "playlist",
+        "uri": "spotify:playlist:4i3erXY2Av7YGr0asUt1LL"
+      }
+    },
+    {
+      "track": {
+        "id": "Cvl9dq83Eh0ezFeKORdjjZ",
+        "name": "Plum Moon",
+        "duration_ms": 222576,
+        "explicit": false,
+        "track_number": 2,
+        "uri": "spotify:track:Cvl9dq83Eh0ezFeKORdjjZ",
+        "external_urls": {
+          "spotify": "https://open.spotify.com/track/Cvl9dq83Eh0ezFeKORdjjZ"
+        },
+        "artists": [
+          {
+            "id": "7yfJs1ON43xKmTecQoXsf2",
+            "name": "Midnight Orchard",
+            "uri": "spotify:artist:7yfJs1ON43xKmTecQoXsf2"
+          }
+        ],
+        "album": {
+          "id": "u7W7eaDNKgeInGqi7w4e4p",
+          "name": "Night Fruit",
+          "album_type": "album",
+          "release_date": "2026-08-21",
+          "images": [
+            {
+              "url": "https://i.scdn.co/image/xskC1ITtNZPHaQ0Jt7Qg84",
+              "width": 640,
+              "height": 640
+            },
+            {
+              "url": "https://i.scdn.co/image/iqh4gVJjrsMnTvnRO2qGFq",
+              "width": 300,
+              "height": 300
+            },
+            {
+              "url": "https://i.scdn.co/image/562dfOB1rcavXiOqkVCJTB",
+              "width": 64,
+              "height": 64
+            }
+          ],
+          "artists": [
+            {
+              "id": "7yfJs1ON43xKmTecQoXsf2",
+              "name": "Midnight Orchard"
+            }
+          ]
+        }
+      },
+      "played_at": "2026-10-02T12:21:17.334Z",
+      "context": {
+        "type": "playlist",
+        "uri": "spotify:playlist:4i3erXY2Av7YGr0asUt1LL"
+      }
+    },
+    {
+      "track": {
+        "id": "IDAdmHxNWFOCWdnrJi7sC4",
+        "name": "Glass Houses",
+        "duration_ms": 205715,
+        "explicit": false,
+        "track_number": 1,
+        "uri": "spotify:track:IDAdmHxNWFOCWdnrJi7sC4",
+        "external_urls": {
+          "spotify": "https://open.spotify.com/track/IDAdmHxNWFOCWdnrJi7sC4"
+        },
+        "artists": [
+          {
+            "id": "4IWrXPvhsBkDa9U4UqGWlG",
+            "name": "Kira Vance",
+            "uri": "spotify:artist:4IWrXPvhsBkDa9U4UqGWlG"
+          }
+        ],
+        "album": {
+          "id": "PeX9PcWb8pm1bNjpiEQhK8",
+          "name": "Glass Houses",
+          "album_type": "album",
+          "release_date": "2026-09-12",
+          "images": [
+            {
+              "url": "https://i.scdn.co/image/nDSqXxkMM9VThX0k9tgLb7",
+              "width": 640,
+              "height": 640
+            },
+            {
+              "url": "https://i.scdn.co/image/tKR69yz8TmeLS1OpgSXt2R",
+              "width": 300,
+              "height": 300
+            },
+            {
+              "url": "https://i.scdn.co/image/MZhYKYcwIBQxeGPva2A0Fg",
+              "width": 64,
+              "height": 64
+            }
+          ],
+          "artists": [
+            {
+              "id": "4IWrXPvhsBkDa9U4UqGWlG",
+              "name": "Kira Vance"
+            }
+          ]
+        }
+      },
+      "played_at": "2026-10-02T12:17:34.307Z",
+      "context": {
+        "type": "playlist",
+        "uri": "spotify:playlist:4i3erXY2Av7YGr0asUt1LL"
+      }
+    },
+    {
+      "track": {
+        "id": "8WSlmnVErULWHMsg1msoxl",
+        "name": "Porch Light",
+        "duration_ms": 233309,
+        "explicit": false,
+        "track_number": 1,
+        "uri": "spotify:track:8WSlmnVErULWHMsg1msoxl",
+        "external_urls": {
+          "spotify": "https://open.spotify.com/track/8WSlmnVErULWHMsg1msoxl"
+        },
+        "artists": [
+          {
+            "id": "vrjn9Wvgfygw2wMqZcUDIh",
+            "name": "Juniper Lane",
+            "uri": "spotify:artist:vrjn9Wvgfygw2wMqZcUDIh"
+          }
+        ],
+        "album": {
+          "id": "n3z5dkyayq7YYDsBS9UYJQ",
+          "name": "Porch Light Hymns",
+          "album_type": "album",
+          "release_date": "2023-06-02",
+          "images": [
+            {
+              "url": "https://i.scdn.co/image/TFjmsn9dLVIdVuddLEG62H",
+              "width": 640,
+              "height": 640
+            },
+            {
+              "url": "https://i.scdn.co/image/kd9Gf2leMeR3pzh84KpLMc",
+              "width": 300,
+              "height": 300
+            },
+            {
+              "url": "https://i.scdn.co/image/NfAQLKHu7qnQTupqziQPtD",
+              "width": 64,
+              "height": 64
+            }
+          ],
+          "artists": [
+            {
+              "id": "vrjn9Wvgfygw2wMqZcUDIh",
+              "name": "Juniper Lane"
+            }
+          ]
+        }
+      },
+      "played_at": "2026-10-02T12:14:07.669Z",
+      "context": {
+        "type": "playlist",
+        "uri": "spotify:playlist:4i3erXY2Av7YGr0asUt1LL"
+      }
+    },
+    {
+      "track": {
+        "id": "UAFJWpSEPTFCYbfsozSptQ",
+        "name": "Soft Interference",
+        "duration_ms": 256595,
+        "explicit": false,
+        "track_number": 1,
+        "uri": "spotify:track:UAFJWpSEPTFCYbfsozSptQ",
+        "external_urls": {
+          "spotify": "https://open.spotify.com/track/UAFJWpSEPTFCYbfsozSptQ"
+        },
+        "artists": [
+          {
+            "id": "GMbJmTPSIAoCLrZ3aWZkSB",
+            "name": "Velvet Static",
+            "uri": "spotify:artist:GMbJmTPSIAoCLrZ3aWZkSB"
+          }
+        ],
+        "album": {
+          "id": "aeTOdoe5c3veGprQFnIiU7",
+          "name": "Soft Interference",
+          "album_type": "album",
+          "release_date": "2024-09-27",
+          "images": [
+            {
+              "url": "https://i.scdn.co/image/4KKEpYEZAmggQBwBAD3UdR",
+              "width": 640,
+              "height": 640
+            },
+            {
+              "url": "https://i.scdn.co/image/PPgdzUvZ3gpmmICiBlrDp3",
+              "width": 300,
+              "height": 300
+            },
+            {
+              "url": "https://i.scdn.co/image/7eCZ32JgdPI1af7W2pkAFE",
+              "width": 64,
+              "height": 64
+            }
+          ],
+          "artists": [
+            {
+              "id": "GMbJmTPSIAoCLrZ3aWZkSB",
+              "name": "Velvet Static"
+            }
+          ]
+        }
+      },
+      "played_at": "2026-10-02T12:10:12.499Z",
+      "context": {
+        "type": "playlist",
+        "uri": "spotify:playlist:4i3erXY2Av7YGr0asUt1LL"
+      }
+    },
+    {
+      "track": {
+        "id": "B9xO51DTjBlUH9PrNZ6IXE",
+        "name": "Streetlight Sonata",
+        "duration_ms": 214476,
+        "explicit": false,
+        "track_number": 1,
+        "uri": "spotify:track:B9xO51DTjBlUH9PrNZ6IXE",
+        "external_urls": {
+          "spotify": "https://open.spotify.com/track/B9xO51DTjBlUH9PrNZ6IXE"
+        },
+        "artists": [
+          {
+            "id": "OhbVrpoiVgRV5IfLBcbfno",
+            "name": "Neon Harbor",
+            "uri": "spotify:artist:OhbVrpoiVgRV5IfLBcbfno"
+          }
+        ],
+        "album": {
+          "id": "6g3Ot1OGMmjxWkI9X7H6aM",
+          "name": "Afterglow District",
+          "album_type": "album",
+          "release_date": "2025-03-14",
+          "images": [
+            {
+              "url": "https://i.scdn.co/image/uFbh7x41Ztpdp4K8ffUF0e",
+              "width": 640,
+              "height": 640
+            },
+            {
+              "url": "https://i.scdn.co/image/WIXiiQE8JkqH3MB9n7IWUS",
+              "width": 300,
+              "height": 300
+            },
+            {
+              "url": "https://i.scdn.co/image/mTtzQPxC5HChpoevbLJoLo",
+              "width": 64,
+              "height": 64
+            }
+          ],
+          "artists": [
+            {
+              "id": "OhbVrpoiVgRV5IfLBcbfno",
+              "name": "Neon Harbor"
+            }
+          ]
+        }
+      },
+      "played_at": "2026-10-02T12:08:46.458Z",
+      "context": {
+        "type": "playlist",
+        "uri": "spotify:playlist:4i3erXY2Av7YGr0asUt1LL"
+      }
+    }
+  ],
+  "cursors": {
+    "after": "1791208471204",
+    "before": "1790942926458"
+  },
+  "next": "https://api.spotify.com/v1/me/player/recently-played?before=1790942926458&limit=50"
+}
