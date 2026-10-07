@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="Results" content="width=device-width, inital-scale=1.0">
+        <title>Results</title>
+    </head>
+    <body>
+        <h1>RankJams</h1>
+        <a href="{{ url_for('index') }}">Home</a>
+        <a href="{{ url_for('rank') }}">Rank</a>
+        <br>
+        <p>Here are your favorite songs, ranked by their wins:</p>
+        <p>
+            1: {{ song1 }}  <br>
+            2: {{ song2 }}  <br>
+            3: {{ song3 }}  <br>
+            4: {{ song4 }}  <br>
+        </p>
+    </body>
+</html>

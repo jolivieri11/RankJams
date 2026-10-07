@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="Ranking" content="width=device-width, inital-scale=1.0">
+        <title>Rankings</title>
+    </head>
+    <body>
+        <h1>RankJams</h1>
+        <a href="{{ url_for('index') }}">Home</a>
+        <a href="{{ url_for('results') }}">Results</a>
+        <hr>
+        <p>Pick your favorite between these two recently played songs:</p>
+        <form method="post" action={{ url_for('rank') }}>
+            <button type="submit" name="action" value="{{ song1 }}">{{ song1 }}</button>
+            <button type="submit" name="action" value="{{ song2 }}">{{ song2 }}</button>
+        </form>
+        <br>
+        <p> {{ song1 }}</p>
+        <img src={{ song1_link }} alt={{ song1 }} width="300" height="300"> 
+        <br>
+        <h4>VERSUS</h4>
+        <p>Pick your favorite between these two recently played songs:</p>
+        <br>
+        <p> {{ song2 }}</p>
+        <img src={{ song2_link }} alt={{ song2 }} width="300" height="300"> 
+        <br>
+    </body>
+</html>

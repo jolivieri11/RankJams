@@ -29,5 +29,6 @@ def id_to_song(song_id: str, bearer: dict) -> dict:
     return response.json()
 
 if __name__ == "__main__":
-    track_data = id_to_song('3adRTDxuj3yPDhRJs1PF2C', _get_bearer_token())
+    song_link = input("Input a valid spotify track link: ")
+    track_data = id_to_song(song_link.split('/')[-1], _get_bearer_token())
     print(f"{track_data.get('name')} - {track_data.get('artists')[0].get('name')}")
