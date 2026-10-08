@@ -2,7 +2,7 @@
 <html lang="en">
     <head>
         <meta charset="utf-8">
-        <meta name="Ranking" content="width=device-width, inital-scale=1.0">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Rankings</title>
     </head>
     <body>
@@ -12,18 +12,25 @@
         <hr>
         <p>Pick your favorite between these two recently played songs:</p>
         <form method="post" action={{ url_for('rank') }}>
-            <button type="submit" name="action" value="{{ song1 }}">{{ song1 }}</button>
-            <button type="submit" name="action" value="{{ song2 }}">{{ song2 }}</button>
+            <input type="hidden" name="winner" value="{{ song1.id }}">
+            <input type="hidden" name="loser" value="{{ song2.id }}">
+            <button type="submit">
+                <img src="{{ song1.image }}" alt="{{ song1.name }}" width="300" height="300">
+                <p>{{ song1.name }}</p>
+            </button>
         </form>
-        <br>
-        <p> {{ song1 }}</p>
-        <img src={{ song1_link }} alt={{ song1 }} width="300" height="300"> 
         <br>
         <h4>VERSUS</h4>
         <p>Pick your favorite between these two recently played songs:</p>
         <br>
-        <p> {{ song2 }}</p>
-        <img src={{ song2_link }} alt={{ song2 }} width="300" height="300"> 
+        <form method="post" action={{ url_for('rank') }}>
+            <input type="hidden" name="winner" value="{{ song2.id }}">
+            <input type="hidden" name="loser" value="{{ song1.id }}">
+            <button type="submit">
+                <img src="{{ song2.image }}" alt="{{ song2.name }}" width="300" height="300">
+                <p>{{ song2.name }}</p>
+            </button>
+        </form>
         <br>
     </body>
 </html>

@@ -1,38 +1,43 @@
 import random
 
-from flask import Flask, render_template, request
+from flask import Flask, abort, render_template, request
 
 app = Flask(__name__)
 
-song_names = ["Rolling Loud", "STARGAZING", "Fancy", "Neon Kitchen"]
-song_links = ["https://i.scdn.co/image/ab67616d0000b2739382b279fa552e0fae460a85", "https://media.pitchfork.com/photos/5b60c32dc50e6c2e339b99fe/1:1/w_800,h_800,c_limit/Travis%20Scott_Astroworld.jpg",
-              "https://upload.wikimedia.org/wikipedia/en/9/9c/Drake_-_Thank_Me_Later_cover.jpg?utm_source=en.wikipedia.org&utm_campaign=index&utm_content=original", "https://f4.bcbits.com/img/a4025637069_16.jpg"]
+songs = [
+    {"id": "rolling-loud", "name": "Rolling Loud", "image": "https://i.scdn.co/image/ab67616d0000b2739382b279fa552e0fae460a85"},
+    {"id": "stargazing", "name": "STARGAZING", "image": "https://media.pitchfork.com/photos/5b60c32dc50e6c2e339b99fe/1:1/w_800,h_800,c_limit/Travis%20Scott_Astroworld.jpg"},
+    {"id": "fancy", "name": "Fancy", "image": "https://upload.wikimedia.org/wikipedia/en/9/9c/Drake_-_Thank_Me_Later_cover.jpg?utm_source=en.wikipedia.org&utm_campaign=index&utm_content=original"},
+    {"id": "neon-kitchen", "name": "Neon Kitchen", "image": "https://f4.bcbits.com/img/a4025637069_16.jpg"},
+    {"id": "new-sky", "name": "New Sky", "image": "https://thumb.wikimedia.org/wikipedia/en/thumb/7/72/SiRChasingSummer.jpg/250px-SiRChasingSummer.jpg?utm_source=en.wikipedia.org&utm_campaign=parser&utm_content=thumbnail"},
+    {"id": "mom", "name": "M.O.M", "image": "https://i.scdn.co/image/ab67616d0000b273f595e5f39c4050805de5caf5"},
+    {"id": "cosmo-freestyle", "name": "Cosmo Freestyle", "image": "https://upload.wikimedia.org/wikipedia/en/0/01/You_Only_Die_1nce_album_cover.jpg?utm_source=en.wikipedia.org&utm_campaign=index&utm_content=original"},
+    {"id": "self-control", "name": "Self Control", "image": "https://upload.wikimedia.org/wikipedia/en/a/a0/Blonde_-_Frank_Ocean.jpeg?utm_source=en.wikipedia.org&utm_campaign=index&utm_content=original"},
+    {"id": "be-like-a-woman", "name": "Be Like a Woman", "image": "https://i5.walmartimages.com/seo/White-Trails-CD_e6059b49-5a72-4e35-99ad-b1b2f65cad9d.50054e2aa7a3df88245f55353a32858d.jpeg?odnHeight=768&odnWidth=768&odnBg=FFFFFF"},
+    {"id": "cinderella", "name": "Cinderella", "image": "https://upload.wikimedia.org/wikipedia/en/9/93/Mac_Miller_-_The_Divine_Feminine.png?utm_source=en.wikipedia.org&utm_campaign=index&utm_content=original"}
+]
+songs_by_id = {song["id"]: song for song in songs}
 
 wins = {}
 
 # Routes
 @app.route("/")
 def index():
-    return render_template("index.html")
+    song1, song2, song3, song4, song5, song6 = random.sample(songs, 6)
+    return render_template("index.html", song1=song1, song2=song2, song3=song3, song4=song4, song5=song5, song6=song6)
 
 @app.route("/rank", methods=["GET", "POST"])
 def rank():
-    idx = random.randint(0, len(song_names) - 1)
-    song1 = song_names[idx]
-    song1_link = song_links[idx]
-    idx = random.randint(0, len(song_names) - 1)
-    song2 = song_names[idx]
-    song2_link = song_links[idx]
-
     if request.method == "POST":
-        action = request.form.get("action")
-        if action == song1:
-            wins[song1] = wins.get(song1, 0) + 1
-        elif action == song2:
-            wins[song2] = wins.get(song2, 0) + 1
-    print(wins)
-    
-    return render_template("rank.html", song1=song1, song1_link=song1_link, song2=song2, song2_link=song2_link)
+        winner_id = request.form.get("winner")
+        loser_id = request.form.get("loser")
+        if winner_id not in songs_by_id or loser_id not in songs_by_id or winner_id == loser_id:
+            abort(400)
+        wins[winner_id] = wins.get(winner_id, 0) + 1
+        return render_template("rank.html")
+
+    song1, song2 = random.sample(songs, 2)
+    return render_template("rank.html", song1=song1, song2=song2)
 
 @app.route("/results")
 def results():
@@ -43,4 +48,4 @@ def results():
     return render_template("results.html", song1=top_songs[0], song2=top_songs[1], song3=top_songs[2], song4=top_songs[3])
 
 if __name__ == "__main__":
-    app.run(host="127.0.0.1", port="8888", debug=True)
+    app.run(host="127.0.0.1", port=8888, debug=True)
