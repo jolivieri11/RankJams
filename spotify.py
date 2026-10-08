@@ -2,6 +2,7 @@ import base64
 import time
 
 import requests
+from urllib.parse import urlparse
 
 from config import Settings
 
@@ -30,5 +31,5 @@ def id_to_song(song_id: str, bearer: dict) -> dict:
 
 if __name__ == "__main__":
     song_link = input("Input a valid spotify track link: ")
-    track_data = id_to_song(song_link.split('/')[-1], _get_bearer_token())
+    track_data = id_to_song(urlparse(song_link).path.rstrip("/").split('/')[-1], _get_bearer_token())
     print(f"{track_data.get('name')} - {track_data.get('artists')[0].get('name')}")

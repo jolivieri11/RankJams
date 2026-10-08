@@ -1,27 +1,17 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>"RankJams"</title>
-</head>
-<body>
+{% extends "base.html" %}
+
+{% block content %} 
     <h1>RankJams</h1>
-    <a href="{{ url_for('rank') }}">Rank</a>
-    <a href="{{ url_for('results') }}">Results</a>
     <hr>
     <p>Here are six songs I like:</p>
-    <p><b>1:</b> {{ song1.name }}</p>
-    <img src="{{ song1.image }}" alt="{{ song1.id }}" width="300" height="300">
-    <p><b>2:</b> {{ song2.name }}</p>
-    <img src="{{ song2.image }}" alt="{{ song2.id }}" width="300" height="300">
-    <p><b>3:</b> {{ song3.name }}</p>
-    <img src="{{ song3.image }}" alt="{{ song3.id }}" width="300" height="300">
-    <p><b>4:</b> {{ song4.name }}</p>
-    <img src="{{ song4.image }}" alt="{{ song4.id }}" width="300" height="300">
-    <p><b>5:</b> {{ song5.name }}</p>
-    <img src="{{ song5.image }}" alt="{{ song5.id }}" width="300" height="300">
-    <p><b>6:</b> {{ song6.name }}</p>
-    <img src="{{ song6.image }}" alt="{{ song6.id }}" width="300" height="300">
-</body>
-</html>
+    <ol>
+        {% for song in songs %}
+            <li>
+                {{ song.name }}
+                <br>
+                <img src="{{ song.image }}" alt="{{ song.name }}" width="300" height="300">
+            </li>
+            
+        {% endfor %}
+    </ol>
+{% endblock %}

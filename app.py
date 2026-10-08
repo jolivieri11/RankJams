@@ -1,6 +1,7 @@
+from os import name
 import random
 
-from flask import Flask, abort, render_template, request
+from flask import Flask, abort, redirect, render_template, request, url_for
 
 app = Flask(__name__)
 
@@ -23,8 +24,8 @@ wins = {}
 # Routes
 @app.route("/")
 def index():
-    song1, song2, song3, song4, song5, song6 = random.sample(songs, 6)
-    return render_template("index.html", song1=song1, song2=song2, song3=song3, song4=song4, song5=song5, song6=song6)
+    chosen = random.sample(songs, 6)
+    return render_template("index.html", songs=chosen)
 
 @app.route("/rank", methods=["GET", "POST"])
 def rank():
@@ -34,7 +35,7 @@ def rank():
         if winner_id not in songs_by_id or loser_id not in songs_by_id or winner_id == loser_id:
             abort(400)
         wins[winner_id] = wins.get(winner_id, 0) + 1
-        return render_template("rank.html")
+        return redirect(url_for('rank'))
 
     song1, song2 = random.sample(songs, 2)
     return render_template("rank.html", song1=song1, song2=song2)
@@ -42,10 +43,8 @@ def rank():
 @app.route("/results")
 def results():
     sorted_songs = sorted(wins.items(), key=lambda x: x[1], reverse=True)
-    top_songs = [song for song, _ in sorted_songs[:4]]
-    while len(top_songs) < 4:
-        top_songs.append(None)
-    return render_template("results.html", song1=top_songs[0], song2=top_songs[1], song3=top_songs[2], song4=top_songs[3])
+    entrys = {songs_by_id[id]["name"]: wins.get(id, 0) for id, _ in sorted_songs[:3]}
+    return render_template("results.html", top_wins=entrys)
 
 if __name__ == "__main__":
     app.run(host="127.0.0.1", port=8888, debug=True)
