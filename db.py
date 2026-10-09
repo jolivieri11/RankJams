@@ -1,8 +1,4 @@
-import random
-
-from flask import Flask, abort, redirect, render_template, request, url_for
-
-app = Flask(__name__)
+import sqlite3
 
 songs = [
     {"id": "rolling-loud", "name": "Rolling Loud", "image": "https://i.scdn.co/image/ab67616d0000b2739382b279fa552e0fae460a85", "artists": [("drake", "Drake"), ("ti", "T.I."), ("swizz-beatz", "Swizz Beatz")]},
@@ -18,32 +14,38 @@ songs = [
 ]
 songs_by_id = {song["id"]: song for song in songs}
 
-wins = {}
+conn = sqlite3.connect('instance/rankjams.db')
+conn.row_factory = sqlite3.Row
+conn.execute("PRAGMA foreign_keys = ON;")
 
-# Routes
-@app.route("/")
-def index():
-    chosen = random.sample(songs, 6)
-    return render_template("index.html", songs=chosen)
+with open("schema.sql") as f:
+    conn.executescript(f.read())
 
-@app.route("/rank", methods=["GET", "POST"])
-def rank():
-    if request.method == "POST":
-        winner_id = request.form.get("winner")
-        loser_id = request.form.get("loser")
-        if winner_id not in songs_by_id or loser_id not in songs_by_id or winner_id == loser_id:
-            abort(400)
-        wins[winner_id] = wins.get(winner_id, 0) + 1
-        return redirect(url_for('rank'))
+with conn:
+    for song in songs:
+        conn.execute(
+            "INSERT OR IGNORE INTO songs (id, name, image) VALUES (?, ?, ?)",
+            (song["id"], song["name"], song["image"])
+        )
+        for position, (artist_id, artist_name) in enumerate(song["artists"], start=1):
+            conn.execute(
+                "INSERT OR IGNORE INTO artists (id, name) VALUES (?, ?)",
+                (artist_id, artist_name)
+            )
+            conn.execute(
+                "INSERT OR IGNORE INTO song_artists (song_id, artist_id, position) VALUES (?, ?, ?)",
+                (song["id"], artist_id, position)
+            )
 
-    song1, song2 = random.sample(songs, 2)
-    return render_template("rank.html", song1=song1, song2=song2)
+conn.commit()
 
-@app.route("/results")
-def results():
-    sorted_songs = sorted(wins.items(), key=lambda x: x[1], reverse=True)
-    entrys = {songs_by_id[id]["name"]: wins.get(id, 0) for id, _ in sorted_songs[:3]}
-    return render_template("results.html", top_wins=entrys)
+for row in conn.execute("""
+    SELECT s.name, group_concat(a.name, ', ' ORDER BY sa.position) AS artists
+    FROM songs s
+    JOIN song_artists sa ON sa.song_id = s.id
+    JOIN artists a       ON a.id = sa.artist_id
+    GROUP BY s.id
+"""):
+    print(row["name"], "-", row["artists"])
 
-if __name__ == "__main__":
-    app.run(host="127.0.0.1", port=8888, debug=True)
+conn.close()

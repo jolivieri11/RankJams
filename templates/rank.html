@@ -9,8 +9,8 @@
     <form method="post" action="{{ url_for('rank') }}">
         <input type="hidden" name="winner" value="{{ song1.id }}">
         <input type="hidden" name="loser" value="{{ song2.id }}">
-        <button type="submit">
-            <img src="{{ song1.image }}" alt="{{ song1.name }}" width="300" height="300">
+        <button type="submit" class="btn">
+            <img src="{{ song1.image }}" alt="{{ song1.name }}">
             <p>{{ song1.name }}</p>
         </button>
     </form>
@@ -20,8 +20,8 @@
     <form method="post" action="{{ url_for('rank') }}">
         <input type="hidden" name="winner" value="{{ song2.id }}">
         <input type="hidden" name="loser" value="{{ song1.id }}">
-        <button type="submit">
-            <img src="{{ song2.image }}" alt="{{ song2.name }}" width="300" height="300">
+        <button type="submit" class="btn">
+            <img src="{{ song2.image }}" alt="{{ song2.name }}">
             <p>{{ song2.name }}</p>
         </button>
     </form>
