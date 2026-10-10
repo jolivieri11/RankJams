@@ -7,10 +7,13 @@
         <hr>
         <p>Here are your favorite songs, ranked by their wins:</p>
         <ol>
-        {% for name, wins in top_wins.items() %}
-            <li>{{ name }} - Wins: {{ wins }}</li>
-        {% else %}
-            <li>No songs have been ranked yet.</li>
-        {% endfor %}
+            {% for song in songs %}
+            <li>
+                <img src="{{ song.image }}" alt="{{ song.name }}">
+                {{ song.name }} - {{ song.artists or "Unknown artists" }} | {{ song.wins }} {{ "win" if song.wins == 1 else "wins" }}
+            </li>
+            {% else %}
+                <li>No songs have been ranked yet.</li>
+            {% endfor %}
         </ol>
 {% endblock %}
